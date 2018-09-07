@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.services.monitor;
+package com.jdcteam.buffcore.services.monitor;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -35,17 +35,17 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.support.annotation.Nullable;
 
-import com.jdcteam.mtweaks.BuildConfig;
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.MainActivity;
-import com.jdcteam.mtweaks.activities.NavigationActivity;
-import com.jdcteam.mtweaks.database.Settings;
-import com.jdcteam.mtweaks.fragments.tools.DataSharingFragment;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Device;
-import com.jdcteam.mtweaks.utils.NotificationId;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.server.ServerCreateDevice;
+import com.jdcteam.buffcore.BuildConfig;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.MainActivity;
+import com.jdcteam.buffcore.activities.NavigationActivity;
+import com.jdcteam.buffcore.database.Settings;
+import com.jdcteam.buffcore.fragments.tools.DataSharingFragment;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Device;
+import com.jdcteam.buffcore.utils.NotificationId;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.server.ServerCreateDevice;
 
 import org.json.JSONArray;
 import org.json.JSONException;

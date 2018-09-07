@@ -17,9 +17,9 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.database.tools.customcontrols;
+package com.jdcteam.buffcore.database.tools.customcontrols;
 
-import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.buffcore.utils.Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

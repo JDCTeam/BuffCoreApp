@@ -1,17 +1,17 @@
-package com.jdcteam.mtweaks.fragments.kernel;
+package com.jdcteam.buffcore.fragments.kernel;
 
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.support.v4.content.ContextCompat;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.DescriptionFragment;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.kernel.spectrum.Spectrum;
-import com.jdcteam.mtweaks.views.recyclerview.CardView;
-import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.DescriptionFragment;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.kernel.spectrum.Spectrum;
+import com.jdcteam.buffcore.views.recyclerview.CardView;
+import com.jdcteam.buffcore.views.recyclerview.DescriptionView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 import java.util.List;
 

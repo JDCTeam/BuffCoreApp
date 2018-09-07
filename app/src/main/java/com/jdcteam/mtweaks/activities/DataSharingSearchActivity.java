@@ -17,22 +17,22 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.activities;
+package com.jdcteam.buffcore.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.server.DeviceInfo;
-import com.jdcteam.mtweaks.utils.server.ServerSearchDevice;
-import com.jdcteam.mtweaks.views.dialog.Dialog;
-import com.jdcteam.mtweaks.views.recyclerview.ButtonView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.jdcteam.mtweaks.views.recyclerview.datasharing.DataSharingDeviceView;
-import com.jdcteam.mtweaks.views.recyclerview.datasharing.DataSharingPageView;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.server.DeviceInfo;
+import com.jdcteam.buffcore.utils.server.ServerSearchDevice;
+import com.jdcteam.buffcore.views.dialog.Dialog;
+import com.jdcteam.buffcore.views.recyclerview.ButtonView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.views.recyclerview.datasharing.DataSharingDeviceView;
+import com.jdcteam.buffcore.views.recyclerview.datasharing.DataSharingPageView;
 
 import java.util.List;
 

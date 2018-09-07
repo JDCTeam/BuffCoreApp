@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.recyclerview;
+package com.jdcteam.buffcore.fragments.recyclerview;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -54,18 +54,18 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.BaseActivity;
-import com.jdcteam.mtweaks.activities.NavigationActivity;
-import com.jdcteam.mtweaks.fragments.BaseFragment;
-import com.jdcteam.mtweaks.fragments.LoadingFragment;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.ViewUtils;
-import com.jdcteam.mtweaks.views.dialog.ViewPagerDialog;
-import com.jdcteam.mtweaks.views.recyclerview.AdView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewAdapter;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.BaseActivity;
+import com.jdcteam.buffcore.activities.NavigationActivity;
+import com.jdcteam.buffcore.fragments.BaseFragment;
+import com.jdcteam.buffcore.fragments.LoadingFragment;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.ViewUtils;
+import com.jdcteam.buffcore.views.dialog.ViewPagerDialog;
+import com.jdcteam.buffcore.views.recyclerview.AdView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewAdapter;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 import com.viewpagerindicator.CirclePageIndicator;
 
 import java.lang.ref.WeakReference;

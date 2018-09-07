@@ -1,4 +1,4 @@
-package com.jdcteam.mtweaks.utils.kernel.boefflawakelock;
+package com.jdcteam.buffcore.utils.kernel.boefflawakelock;
 
 public class WakeLockInfo {
 

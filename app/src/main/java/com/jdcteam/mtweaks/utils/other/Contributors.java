@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.other;
+package com.jdcteam.buffcore.utils.other;
 
 import org.json.JSONArray;
 import org.json.JSONException;

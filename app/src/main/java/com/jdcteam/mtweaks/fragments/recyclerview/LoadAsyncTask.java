@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.recyclerview;
+package com.jdcteam.buffcore.fragments.recyclerview;
 
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;

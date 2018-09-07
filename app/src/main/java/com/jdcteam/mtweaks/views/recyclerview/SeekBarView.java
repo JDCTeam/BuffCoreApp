@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.views.recyclerview;
+package com.jdcteam.buffcore.views.recyclerview;
 
 import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.utils.Log;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.utils.Log;
 
 import org.adw.library.widgets.discreteseekbar.DiscreteSeekBar;
 

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.other;
+package com.jdcteam.buffcore.fragments.other;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -46,19 +46,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.BannerResizerActivity;
-import com.jdcteam.mtweaks.activities.MainActivity;
-import com.jdcteam.mtweaks.activities.NavigationActivity;
-import com.jdcteam.mtweaks.services.boot.ApplyOnBootService;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Themes;
-import com.jdcteam.mtweaks.utils.AppUpdaterTask;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.ViewUtils;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
-import com.jdcteam.mtweaks.views.BorderCircleView;
-import com.jdcteam.mtweaks.views.dialog.Dialog;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.BannerResizerActivity;
+import com.jdcteam.buffcore.activities.MainActivity;
+import com.jdcteam.buffcore.activities.NavigationActivity;
+import com.jdcteam.buffcore.services.boot.ApplyOnBootService;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Themes;
+import com.jdcteam.buffcore.utils.AppUpdaterTask;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.ViewUtils;
+import com.jdcteam.buffcore.utils.root.RootUtils;
+import com.jdcteam.buffcore.views.BorderCircleView;
+import com.jdcteam.buffcore.views.dialog.Dialog;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -365,12 +365,12 @@ public class SettingsFragment extends PreferenceFragmentCompat implements
             alert2.setTitle(getString(R.string.reset_data_dialog2_title));
             alert2.setMessage(getString(R.string.reset_data_dialog2_message));
             alert2.setNegativeButton(getString(R.string.cancel), (dialogInterface, i) -> {
-                RootUtils.runCommand("rm -rf /data/.mtweaks");
-                RootUtils.runCommand("pm clear com.jdcteam.mtweaks");
+                RootUtils.runCommand("rm -rf /data/.buffcore");
+                RootUtils.runCommand("pm clear com.jdcteam.buffcore");
             });
             alert2.setPositiveButton(getString(R.string.ok), (dialog1, id1) -> {
-                RootUtils.runCommand("rm -rf /data/.mtweaks");
-                RootUtils.runCommand("pm clear com.jdcteam.mtweaks && reboot");
+                RootUtils.runCommand("rm -rf /data/.buffcore");
+                RootUtils.runCommand("pm clear com.jdcteam.buffcore && reboot");
             });
             alert2.show();
         });

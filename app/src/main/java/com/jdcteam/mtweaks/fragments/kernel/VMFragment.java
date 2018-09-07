@@ -17,26 +17,26 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.kernel;
+package com.jdcteam.buffcore.fragments.kernel;
 
 import android.text.InputType;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
 
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Device;
-import com.jdcteam.mtweaks.utils.kernel.vm.VM;
-import com.jdcteam.mtweaks.utils.kernel.vm.ZRAM;
-import com.jdcteam.mtweaks.utils.kernel.vm.ZSwap;
-import com.jdcteam.mtweaks.views.recyclerview.CardView;
-import com.jdcteam.mtweaks.views.recyclerview.GenericSelectView2;
-import com.jdcteam.mtweaks.views.recyclerview.ProgressBarView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
-import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
-import com.jdcteam.mtweaks.views.recyclerview.TitleView;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Device;
+import com.jdcteam.buffcore.utils.kernel.vm.VM;
+import com.jdcteam.buffcore.utils.kernel.vm.ZRAM;
+import com.jdcteam.buffcore.utils.kernel.vm.ZSwap;
+import com.jdcteam.buffcore.views.recyclerview.CardView;
+import com.jdcteam.buffcore.views.recyclerview.GenericSelectView2;
+import com.jdcteam.buffcore.views.recyclerview.ProgressBarView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.views.recyclerview.SeekBarView;
+import com.jdcteam.buffcore.views.recyclerview.SwitchView;
+import com.jdcteam.buffcore.views.recyclerview.TitleView;
 
 import java.util.ArrayList;
 import java.util.List;

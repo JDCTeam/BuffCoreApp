@@ -17,22 +17,22 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.services.profile;
+package com.jdcteam.buffcore.services.profile;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.jdcteam.mtweaks.utils.Log;
+import com.jdcteam.buffcore.utils.Log;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
-import com.jdcteam.mtweaks.services.boot.ApplyOnBoot;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.database.tools.profiles.Profiles;
+import com.jdcteam.buffcore.services.boot.ApplyOnBoot;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,7 +47,7 @@ public class Tile extends BroadcastReceiver {
 
     private static final String NAME = "name";
     private static final String COMMANDS = "commands";
-    private static final String ACTION_TOGGLE_STATE = "com.jdcteam.mtweaks.action.ACTION_TOGGLE_STATE";
+    private static final String ACTION_TOGGLE_STATE = "com.jdcteam.buffcore.action.ACTION_TOGGLE_STATE";
 
     @Override
     public void onReceive(Context context, Intent intent) {

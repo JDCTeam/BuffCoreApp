@@ -17,17 +17,17 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.services;
+package com.jdcteam.buffcore.services;
 
 import android.content.Intent;
 
 import com.google.android.apps.dashclock.api.DashClockExtension;
 import com.google.android.apps.dashclock.api.ExtensionData;
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.MainActivity;
-import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.jdcteam.mtweaks.utils.kernel.gpu.GPUFreq;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.MainActivity;
+import com.jdcteam.buffcore.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.buffcore.utils.kernel.gpu.GPUFreq;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 /**
  * Created by willi on 21.07.16.

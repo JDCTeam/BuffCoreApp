@@ -1,11 +1,11 @@
-package com.jdcteam.mtweaks.views.recyclerview;
+package com.jdcteam.buffcore.views.recyclerview;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.AppCompatImageView;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.jdcteam.mtweaks.R;
+import com.jdcteam.buffcore.R;
 
 /**
  * Created by Morogoku on 08.12.17.

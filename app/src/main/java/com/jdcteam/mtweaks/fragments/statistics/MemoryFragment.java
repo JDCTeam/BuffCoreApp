@@ -17,16 +17,16 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.statistics;
+package com.jdcteam.buffcore.fragments.statistics;
 
 import android.content.res.Configuration;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.Device;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.Device;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.views.recyclerview.DescriptionView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 import java.util.List;
 

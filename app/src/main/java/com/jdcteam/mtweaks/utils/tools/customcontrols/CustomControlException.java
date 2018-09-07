@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.tools.customcontrols;
+package com.jdcteam.buffcore.utils.tools.customcontrols;
 
 /**
  * Created by willi on 02.07.16.

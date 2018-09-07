@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.tools;
+package com.jdcteam.buffcore.utils.tools;
 
 import android.os.Environment;
-import com.jdcteam.mtweaks.utils.Log;
+import com.jdcteam.buffcore.utils.Log;
 
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 import java.io.File;
 

@@ -17,15 +17,15 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.tools.downloads;
+package com.jdcteam.buffcore.fragments.tools.downloads;
 
 import android.text.method.LinkMovementMethod;
 
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.tools.SupportedDownloads;
-import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.tools.SupportedDownloads;
+import com.jdcteam.buffcore.views.recyclerview.DescriptionView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 import java.util.List;
 

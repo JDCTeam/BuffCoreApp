@@ -1,4 +1,4 @@
-package com.jdcteam.mtweaks;
+package com.jdcteam.buffcore;
 
 import org.junit.Test;
 

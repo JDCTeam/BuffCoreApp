@@ -17,10 +17,10 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.tools.customcontrols;
+package com.jdcteam.buffcore.utils.tools.customcontrols;
 
-import com.jdcteam.mtweaks.database.tools.customcontrols.Controls;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.database.tools.customcontrols.Controls;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 import java.util.List;
 import java.util.Random;

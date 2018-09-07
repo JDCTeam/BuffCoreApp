@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.views;
+package com.jdcteam.buffcore.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -30,9 +30,9 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.ViewUtils;
 
 import java.util.ArrayList;
 

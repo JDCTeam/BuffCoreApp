@@ -17,12 +17,12 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.tools;
+package com.jdcteam.buffcore.utils.tools;
 
 import android.content.Context;
 
-import com.jdcteam.mtweaks.utils.Device;
-import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.buffcore.utils.Device;
+import com.jdcteam.buffcore.utils.Utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

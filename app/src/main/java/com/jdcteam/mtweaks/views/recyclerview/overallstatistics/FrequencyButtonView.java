@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.views.recyclerview.overallstatistics;
+package com.jdcteam.buffcore.views.recyclerview.overallstatistics;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -25,8 +25,8 @@ import android.support.v7.widget.AppCompatImageButton;
 import android.view.View;
 import android.view.ViewPropertyAnimator;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 /**
  * Created by willi on 30.04.16.

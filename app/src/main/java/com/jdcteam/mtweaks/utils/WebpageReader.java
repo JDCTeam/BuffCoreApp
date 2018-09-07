@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils;
+package com.jdcteam.buffcore.utils;
 
 import android.app.Activity;
 

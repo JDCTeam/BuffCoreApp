@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.kernel.entropy;
+package com.jdcteam.buffcore.utils.kernel.entropy;
 
 import android.content.Context;
 
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.root.Control;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.root.Control;
 
 /**
  * Created by willi on 29.06.16.

@@ -17,32 +17,32 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.kernel;
+package com.jdcteam.buffcore.fragments.kernel;
 
 import android.text.InputType;
 import android.util.SparseArray;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.fragments.BaseFragment;
-import com.jdcteam.mtweaks.fragments.DescriptionFragment;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.Device;
-import com.jdcteam.mtweaks.utils.Log;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.ViewUtils;
-import com.jdcteam.mtweaks.utils.kernel.cpu.CPUBoost;
-import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.jdcteam.mtweaks.utils.kernel.cpu.Misc;
-import com.jdcteam.mtweaks.views.dialog.Dialog;
-import com.jdcteam.mtweaks.views.recyclerview.CardView;
-import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
-import com.jdcteam.mtweaks.views.recyclerview.GenericSelectView2;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
-import com.jdcteam.mtweaks.views.recyclerview.SelectView;
-import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
-import com.jdcteam.mtweaks.views.recyclerview.XYGraphView;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.fragments.BaseFragment;
+import com.jdcteam.buffcore.fragments.DescriptionFragment;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.Device;
+import com.jdcteam.buffcore.utils.Log;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.ViewUtils;
+import com.jdcteam.buffcore.utils.kernel.cpu.CPUBoost;
+import com.jdcteam.buffcore.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.buffcore.utils.kernel.cpu.Misc;
+import com.jdcteam.buffcore.views.dialog.Dialog;
+import com.jdcteam.buffcore.views.recyclerview.CardView;
+import com.jdcteam.buffcore.views.recyclerview.DescriptionView;
+import com.jdcteam.buffcore.views.recyclerview.GenericSelectView2;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.views.recyclerview.SeekBarView;
+import com.jdcteam.buffcore.views.recyclerview.SelectView;
+import com.jdcteam.buffcore.views.recyclerview.SwitchView;
+import com.jdcteam.buffcore.views.recyclerview.XYGraphView;
 
 import java.util.ArrayList;
 import java.util.Arrays;

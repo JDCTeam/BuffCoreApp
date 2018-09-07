@@ -17,14 +17,14 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.kernel.cpuvoltage;
+package com.jdcteam.buffcore.utils.kernel.cpuvoltage;
 
 import android.content.Context;
 
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.root.Control;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.root.Control;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -36,7 +36,7 @@ import java.util.List;
  */
 public class VoltageCl0 {
 
-    public static final String BACKUP = "/data/.mtweaks/cpuCl0_stock_voltage";
+    public static final String BACKUP = "/data/.buffcore/cpuCl0_stock_voltage";
 
     public static final String CL0_VOLTAGE = "/sys/devices/system/cpu/cpufreq/mp-cpufreq/cluster0_volt_table";
 

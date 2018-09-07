@@ -1,9 +1,9 @@
-package com.jdcteam.mtweaks.utils.kernel.spectrum;
+package com.jdcteam.buffcore.utils.kernel.spectrum;
 
 import android.os.AsyncTask;
 
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 /**
  * Created by Morogoku on 28/07/2017.

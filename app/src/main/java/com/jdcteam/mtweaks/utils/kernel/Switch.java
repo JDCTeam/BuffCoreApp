@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.kernel;
+package com.jdcteam.buffcore.utils.kernel;
 
 /**
  * Created by willi on 21.08.17.

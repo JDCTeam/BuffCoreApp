@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.statistics;
+package com.jdcteam.buffcore.fragments.statistics;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -39,24 +39,24 @@ import android.widget.TextView;
 
 import com.bvalosek.cpuspy.CpuSpyApp;
 import com.bvalosek.cpuspy.CpuStateMonitor;
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.BaseFragment;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.BaseFragment;
 
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.AppUpdaterTask;
-import com.jdcteam.mtweaks.utils.Log;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.jdcteam.mtweaks.utils.kernel.gpu.GPUFreq;
-import com.jdcteam.mtweaks.views.XYGraph;
-import com.jdcteam.mtweaks.views.recyclerview.CardView;
-import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.jdcteam.mtweaks.views.recyclerview.StatsView;
-import com.jdcteam.mtweaks.views.recyclerview.overallstatistics.FrequencyButtonView;
-import com.jdcteam.mtweaks.views.recyclerview.overallstatistics.FrequencyTableView;
-import com.jdcteam.mtweaks.views.recyclerview.overallstatistics.TemperatureView;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.AppUpdaterTask;
+import com.jdcteam.buffcore.utils.Log;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.buffcore.utils.kernel.gpu.GPUFreq;
+import com.jdcteam.buffcore.views.XYGraph;
+import com.jdcteam.buffcore.views.recyclerview.CardView;
+import com.jdcteam.buffcore.views.recyclerview.DescriptionView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.views.recyclerview.StatsView;
+import com.jdcteam.buffcore.views.recyclerview.overallstatistics.FrequencyButtonView;
+import com.jdcteam.buffcore.views.recyclerview.overallstatistics.FrequencyTableView;
+import com.jdcteam.buffcore.views.recyclerview.overallstatistics.TemperatureView;
 
 import java.util.ArrayList;
 import java.util.List;

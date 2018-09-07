@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.activities;
+package com.jdcteam.buffcore.activities;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -35,12 +35,12 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.crashlytics.android.Crashlytics;
-import com.jdcteam.mtweaks.BuildConfig;
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Themes;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.buffcore.BuildConfig;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Themes;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.ViewUtils;
 
 import java.util.Locale;
 

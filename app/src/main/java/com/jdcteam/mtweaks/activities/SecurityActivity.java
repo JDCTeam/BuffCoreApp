@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.activities;
+package com.jdcteam.buffcore.activities;
 
 import android.app.KeyguardManager;
 import android.os.Build;
@@ -35,10 +35,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.FingerprintUiHelper;
-import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.FingerprintUiHelper;
+import com.jdcteam.buffcore.utils.Utils;
 import com.mattprecious.swirl.SwirlView;
 
 import java.io.IOException;

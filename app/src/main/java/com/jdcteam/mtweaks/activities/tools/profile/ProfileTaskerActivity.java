@@ -17,19 +17,19 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.activities.tools.profile;
+package com.jdcteam.buffcore.activities.tools.profile;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
-import com.jdcteam.mtweaks.BuildConfig;
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.BaseActivity;
-import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
-import com.jdcteam.mtweaks.fragments.tools.ProfileFragment;
-import com.jdcteam.mtweaks.services.profile.Tasker;
+import com.jdcteam.buffcore.BuildConfig;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.BaseActivity;
+import com.jdcteam.buffcore.database.tools.profiles.Profiles;
+import com.jdcteam.buffcore.fragments.tools.ProfileFragment;
+import com.jdcteam.buffcore.services.profile.Tasker;
 
 import java.util.List;
 

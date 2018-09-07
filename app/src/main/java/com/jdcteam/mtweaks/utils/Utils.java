@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils;
+package com.jdcteam.buffcore.utils;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -48,12 +48,12 @@ import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
-import com.jdcteam.mtweaks.BuildConfig;
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.StartActivity;
-import com.jdcteam.mtweaks.activities.StartActivityMaterial;
-import com.jdcteam.mtweaks.utils.root.RootFile;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.BuildConfig;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.StartActivity;
+import com.jdcteam.buffcore.activities.StartActivityMaterial;
+import com.jdcteam.buffcore.utils.root.RootFile;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 import java.io.BufferedReader;
 import java.io.File;

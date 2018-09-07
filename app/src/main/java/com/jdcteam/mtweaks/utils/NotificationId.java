@@ -1,4 +1,4 @@
-package com.jdcteam.mtweaks.utils;
+package com.jdcteam.buffcore.utils;
 
 /**
  * Created by willi on 27.11.17.

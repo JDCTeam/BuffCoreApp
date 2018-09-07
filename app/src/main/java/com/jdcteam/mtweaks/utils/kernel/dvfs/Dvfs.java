@@ -1,10 +1,10 @@
-package com.jdcteam.mtweaks.utils.kernel.dvfs;
+package com.jdcteam.buffcore.utils.kernel.dvfs;
 
 import android.content.Context;
 
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.root.Control;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.root.Control;
 
 /**
  * Created by Morogoku on 11/04/2017.

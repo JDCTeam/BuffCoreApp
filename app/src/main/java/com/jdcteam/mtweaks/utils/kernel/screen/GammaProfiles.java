@@ -17,9 +17,9 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.kernel.screen;
+package com.jdcteam.buffcore.utils.kernel.screen;
 
-import com.jdcteam.mtweaks.utils.Log;
+import com.jdcteam.buffcore.utils.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;

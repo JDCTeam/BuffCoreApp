@@ -17,11 +17,11 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.database.tools.profiles;
+package com.jdcteam.buffcore.database.tools.profiles;
 
 import android.content.Context;
 
-import com.jdcteam.mtweaks.database.Provider;
+import com.jdcteam.buffcore.database.Provider;
 
 import org.json.JSONArray;
 import org.json.JSONException;

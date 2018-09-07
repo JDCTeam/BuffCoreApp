@@ -17,15 +17,15 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.views.recyclerview.customcontrols;
+package com.jdcteam.buffcore.views.recyclerview.customcontrols;
 
 import android.app.Activity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.utils.root.RootUtils;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 /**
  * Created by willi on 01.07.16.

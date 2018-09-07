@@ -17,19 +17,19 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.kernel;
+package com.jdcteam.buffcore.fragments.kernel;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.Device;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.kernel.lmk.LMK;
-import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
-import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
-import com.jdcteam.mtweaks.views.recyclerview.TitleView;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.Device;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.kernel.lmk.LMK;
+import com.jdcteam.buffcore.views.recyclerview.DescriptionView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.views.recyclerview.SeekBarView;
+import com.jdcteam.buffcore.views.recyclerview.SwitchView;
+import com.jdcteam.buffcore.views.recyclerview.TitleView;
 
 import java.util.ArrayList;
 import java.util.Arrays;

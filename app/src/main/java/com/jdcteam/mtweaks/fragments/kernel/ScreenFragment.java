@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.kernel;
+package com.jdcteam.buffcore.fragments.kernel;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -26,23 +26,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.fragments.BaseFragment;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.kernel.screen.Calibration;
-import com.jdcteam.mtweaks.utils.kernel.screen.Gamma;
-import com.jdcteam.mtweaks.utils.kernel.screen.GammaProfiles;
-import com.jdcteam.mtweaks.utils.kernel.screen.Misc;
-import com.jdcteam.mtweaks.views.ColorTable;
-import com.jdcteam.mtweaks.views.recyclerview.CardView;
-import com.jdcteam.mtweaks.views.recyclerview.DropDownView;
-import com.jdcteam.mtweaks.views.recyclerview.GenericSelectView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
-import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.fragments.BaseFragment;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.kernel.screen.Calibration;
+import com.jdcteam.buffcore.utils.kernel.screen.Gamma;
+import com.jdcteam.buffcore.utils.kernel.screen.GammaProfiles;
+import com.jdcteam.buffcore.utils.kernel.screen.Misc;
+import com.jdcteam.buffcore.views.ColorTable;
+import com.jdcteam.buffcore.views.recyclerview.CardView;
+import com.jdcteam.buffcore.views.recyclerview.DropDownView;
+import com.jdcteam.buffcore.views.recyclerview.GenericSelectView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.views.recyclerview.SeekBarView;
+import com.jdcteam.buffcore.views.recyclerview.SwitchView;
 
 import java.util.ArrayList;
 import java.util.List;

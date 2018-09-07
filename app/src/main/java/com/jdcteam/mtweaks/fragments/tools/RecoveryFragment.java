@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.tools;
+package com.jdcteam.buffcore.fragments.tools;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -36,20 +36,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.FilePickerActivity;
-import com.jdcteam.mtweaks.fragments.BaseFragment;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.ViewUtils;
-import com.jdcteam.mtweaks.utils.root.RootFile;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
-import com.jdcteam.mtweaks.utils.tools.Recovery;
-import com.jdcteam.mtweaks.views.dialog.Dialog;
-import com.jdcteam.mtweaks.views.recyclerview.CardView;
-import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.FilePickerActivity;
+import com.jdcteam.buffcore.fragments.BaseFragment;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.ViewUtils;
+import com.jdcteam.buffcore.utils.root.RootFile;
+import com.jdcteam.buffcore.utils.root.RootUtils;
+import com.jdcteam.buffcore.utils.tools.Recovery;
+import com.jdcteam.buffcore.views.dialog.Dialog;
+import com.jdcteam.buffcore.views.recyclerview.CardView;
+import com.jdcteam.buffcore.views.recyclerview.DescriptionView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 import java.io.File;
 import java.util.ArrayList;

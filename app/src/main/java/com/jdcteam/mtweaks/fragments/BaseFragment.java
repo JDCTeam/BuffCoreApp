@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments;
+package com.jdcteam.buffcore.fragments;
 
 import android.content.pm.PackageManager;
 import android.os.Build;

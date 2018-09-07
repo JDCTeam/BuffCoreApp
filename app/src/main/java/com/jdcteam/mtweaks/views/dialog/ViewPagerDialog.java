@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.views.dialog;
+package com.jdcteam.buffcore.views.dialog;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -30,8 +30,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
 import com.viewpagerindicator.CirclePageIndicator;
 
 import java.util.List;

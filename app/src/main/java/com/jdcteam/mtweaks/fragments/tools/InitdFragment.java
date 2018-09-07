@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.tools;
+package com.jdcteam.buffcore.fragments.tools;
 
 import android.content.Context;
 import android.content.Intent;
@@ -27,19 +27,19 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.view.Menu;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.EditorActivity;
-import com.jdcteam.mtweaks.fragments.SwitcherFragment;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.ViewUtils;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
-import com.jdcteam.mtweaks.utils.tools.Initd;
-import com.jdcteam.mtweaks.views.dialog.Dialog;
-import com.jdcteam.mtweaks.views.recyclerview.CardView;
-import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.EditorActivity;
+import com.jdcteam.buffcore.fragments.SwitcherFragment;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.ViewUtils;
+import com.jdcteam.buffcore.utils.root.RootUtils;
+import com.jdcteam.buffcore.utils.tools.Initd;
+import com.jdcteam.buffcore.views.dialog.Dialog;
+import com.jdcteam.buffcore.views.recyclerview.CardView;
+import com.jdcteam.buffcore.views.recyclerview.DescriptionView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 import java.util.List;
 

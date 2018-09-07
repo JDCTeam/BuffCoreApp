@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.root;
+package com.jdcteam.buffcore.utils.root;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -25,9 +25,9 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.IBinder;
 
-import com.jdcteam.mtweaks.database.Settings;
-import com.jdcteam.mtweaks.services.monitor.Monitor;
-import com.jdcteam.mtweaks.utils.Log;
+import com.jdcteam.buffcore.database.Settings;
+import com.jdcteam.buffcore.services.monitor.Monitor;
+import com.jdcteam.buffcore.utils.Log;
 
 import java.util.LinkedHashMap;
 import java.util.List;

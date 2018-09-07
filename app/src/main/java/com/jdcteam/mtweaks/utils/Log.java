@@ -17,10 +17,10 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils;
+package com.jdcteam.buffcore.utils;
 
 import com.crashlytics.android.Crashlytics;
-import com.jdcteam.mtweaks.BuildConfig;
+import com.jdcteam.buffcore.BuildConfig;
 
 /**
  * Created by willi on 22.03.18.

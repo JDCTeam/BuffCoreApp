@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.activities.tools.profile;
+package com.jdcteam.buffcore.activities.tools.profile;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -37,16 +37,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.BaseActivity;
-import com.jdcteam.mtweaks.activities.NavigationActivity;
-import com.jdcteam.mtweaks.database.Settings;
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.fragments.BaseFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.ViewUtils;
-import com.jdcteam.mtweaks.utils.root.Control;
-import com.jdcteam.mtweaks.views.dialog.Dialog;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.BaseActivity;
+import com.jdcteam.buffcore.activities.NavigationActivity;
+import com.jdcteam.buffcore.database.Settings;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.fragments.BaseFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.ViewUtils;
+import com.jdcteam.buffcore.utils.root.Control;
+import com.jdcteam.buffcore.views.dialog.Dialog;
 
 import java.util.ArrayList;
 import java.util.Collections;

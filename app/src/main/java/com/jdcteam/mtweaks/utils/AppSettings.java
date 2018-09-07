@@ -17,12 +17,12 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils;
+package com.jdcteam.buffcore.utils;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 
-import com.jdcteam.mtweaks.R;
+import com.jdcteam.buffcore.R;
 
 /**
  * Created by willi on 11.03.18.

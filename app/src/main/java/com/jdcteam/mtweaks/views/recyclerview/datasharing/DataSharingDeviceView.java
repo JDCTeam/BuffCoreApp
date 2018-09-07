@@ -17,17 +17,17 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.views.recyclerview.datasharing;
+package com.jdcteam.buffcore.views.recyclerview.datasharing;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.utils.server.DeviceInfo;
-import com.jdcteam.mtweaks.views.dialog.Dialog;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.utils.server.DeviceInfo;
+import com.jdcteam.buffcore.views.dialog.Dialog;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 /**
  * Created by willi on 20.09.17.

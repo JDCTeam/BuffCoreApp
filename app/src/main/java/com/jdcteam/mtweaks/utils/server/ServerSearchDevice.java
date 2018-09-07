@@ -17,11 +17,11 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.server;
+package com.jdcteam.buffcore.utils.server;
 
 import android.app.Activity;
 
-import com.jdcteam.mtweaks.utils.WebpageReader;
+import com.jdcteam.buffcore.utils.WebpageReader;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.services.boot;
+package com.jdcteam.buffcore.services.boot;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -33,17 +33,17 @@ import android.os.Messenger;
 import android.os.RemoteException;
 import android.support.annotation.Nullable;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.AppUpdaterTask;
-import com.jdcteam.mtweaks.utils.Device;
-import com.jdcteam.mtweaks.utils.NotificationId;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.kernel.cpuvoltage.VoltageCl0;
-import com.jdcteam.mtweaks.utils.kernel.cpuvoltage.VoltageCl1;
-import com.jdcteam.mtweaks.utils.kernel.gpu.GPUFreqExynos;
-import com.jdcteam.mtweaks.utils.kernel.boefflawakelock.BoefflaWakelock;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.AppUpdaterTask;
+import com.jdcteam.buffcore.utils.Device;
+import com.jdcteam.buffcore.utils.NotificationId;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.kernel.cpuvoltage.VoltageCl0;
+import com.jdcteam.buffcore.utils.kernel.cpuvoltage.VoltageCl1;
+import com.jdcteam.buffcore.utils.kernel.gpu.GPUFreqExynos;
+import com.jdcteam.buffcore.utils.kernel.boefflawakelock.BoefflaWakelock;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 /**
  * Created by willi on 03.05.16.
@@ -109,7 +109,7 @@ public class ApplyOnBootService extends Service {
                 RootUtils.runCommand("cp " + GPUFreqExynos.getInstance().AVAILABLE_VOLTS + " " + GPUFreqExynos.BACKUP);
                 AppSettings.saveBoolean("gpu_voltage_saved", true, this);
             }
-            RootUtils.runCommand("setprop mtweaks.voltage_saved 1");
+            RootUtils.runCommand("setprop buffcore.voltage_saved 1");
         }
 
         Messenger messenger = null;

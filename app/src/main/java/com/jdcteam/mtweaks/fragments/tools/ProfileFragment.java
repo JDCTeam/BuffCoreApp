@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.tools;
+package com.jdcteam.buffcore.fragments.tools;
 
 import android.Manifest;
 import android.appwidget.AppWidgetManager;
@@ -41,32 +41,32 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.FilePickerActivity;
-import com.jdcteam.mtweaks.activities.NavigationActivity;
-import com.jdcteam.mtweaks.activities.tools.profile.ProfileActivity;
-import com.jdcteam.mtweaks.activities.tools.profile.ProfileEditActivity;
-import com.jdcteam.mtweaks.activities.tools.profile.ProfileTaskerActivity;
-import com.jdcteam.mtweaks.database.tools.profiles.ExportProfile;
-import com.jdcteam.mtweaks.database.tools.profiles.ImportProfile;
-import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
-import com.jdcteam.mtweaks.fragments.BaseFragment;
-import com.jdcteam.mtweaks.fragments.DescriptionFragment;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.fragments.SwitcherFragment;
-import com.jdcteam.mtweaks.services.boot.ApplyOnBoot;
-import com.jdcteam.mtweaks.services.profile.Tile;
-import com.jdcteam.mtweaks.services.profile.Widget;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.ViewUtils;
-import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.jdcteam.mtweaks.utils.root.Control;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
-import com.jdcteam.mtweaks.views.dialog.Dialog;
-import com.jdcteam.mtweaks.views.recyclerview.CardView;
-import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.FilePickerActivity;
+import com.jdcteam.buffcore.activities.NavigationActivity;
+import com.jdcteam.buffcore.activities.tools.profile.ProfileActivity;
+import com.jdcteam.buffcore.activities.tools.profile.ProfileEditActivity;
+import com.jdcteam.buffcore.activities.tools.profile.ProfileTaskerActivity;
+import com.jdcteam.buffcore.database.tools.profiles.ExportProfile;
+import com.jdcteam.buffcore.database.tools.profiles.ImportProfile;
+import com.jdcteam.buffcore.database.tools.profiles.Profiles;
+import com.jdcteam.buffcore.fragments.BaseFragment;
+import com.jdcteam.buffcore.fragments.DescriptionFragment;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.fragments.SwitcherFragment;
+import com.jdcteam.buffcore.services.boot.ApplyOnBoot;
+import com.jdcteam.buffcore.services.profile.Tile;
+import com.jdcteam.buffcore.services.profile.Widget;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.ViewUtils;
+import com.jdcteam.buffcore.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.buffcore.utils.root.Control;
+import com.jdcteam.buffcore.utils.root.RootUtils;
+import com.jdcteam.buffcore.views.dialog.Dialog;
+import com.jdcteam.buffcore.views.recyclerview.CardView;
+import com.jdcteam.buffcore.views.recyclerview.DescriptionView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

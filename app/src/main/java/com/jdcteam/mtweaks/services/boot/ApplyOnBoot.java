@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.services.boot;
+package com.jdcteam.buffcore.services.boot;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -29,24 +29,24 @@ import android.os.Build;
 import android.os.Handler;
 import android.support.v4.app.NotificationCompat;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.MainActivity;
-import com.jdcteam.mtweaks.database.Settings;
-import com.jdcteam.mtweaks.database.tools.customcontrols.Controls;
-import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.fragments.kernel.CPUHotplugFragment;
-import com.jdcteam.mtweaks.services.profile.Tile;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.NotificationId;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.jdcteam.mtweaks.utils.kernel.cpu.MSMPerformance;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.CoreCtl;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.MPDecision;
-import com.jdcteam.mtweaks.utils.root.Control;
-import com.jdcteam.mtweaks.utils.root.RootFile;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.MainActivity;
+import com.jdcteam.buffcore.database.Settings;
+import com.jdcteam.buffcore.database.tools.customcontrols.Controls;
+import com.jdcteam.buffcore.database.tools.profiles.Profiles;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.fragments.kernel.CPUHotplugFragment;
+import com.jdcteam.buffcore.services.profile.Tile;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.NotificationId;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.buffcore.utils.kernel.cpu.MSMPerformance;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.CoreCtl;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.MPDecision;
+import com.jdcteam.buffcore.utils.root.Control;
+import com.jdcteam.buffcore.utils.root.RootFile;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -275,7 +275,7 @@ public class ApplyOnBoot {
 
                 listener.onFinish();
 
-                RootUtils.runCommand("setprop mtweaks.applied_onboot 1");
+                RootUtils.runCommand("setprop buffcore.applied_onboot 1");
             }
         }).start();
         return true;

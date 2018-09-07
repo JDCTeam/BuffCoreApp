@@ -17,16 +17,16 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.activities.tools;
+package com.jdcteam.buffcore.activities.tools;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.BaseActivity;
-import com.jdcteam.mtweaks.fragments.tools.customcontrols.CreateFragment;
-import com.jdcteam.mtweaks.utils.tools.customcontrols.Items;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.BaseActivity;
+import com.jdcteam.buffcore.fragments.tools.customcontrols.CreateFragment;
+import com.jdcteam.buffcore.utils.tools.customcontrols.Items;
 
 import java.util.ArrayList;
 

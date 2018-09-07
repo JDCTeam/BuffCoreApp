@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.views.recyclerview;
+package com.jdcteam.buffcore.views.recyclerview;
 
 import android.view.View;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.utils.Log;
-import com.jdcteam.mtweaks.views.AdLayout;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.utils.Log;
+import com.jdcteam.buffcore.views.AdLayout;
 
 /**
  * Created by willi on 06.08.16.

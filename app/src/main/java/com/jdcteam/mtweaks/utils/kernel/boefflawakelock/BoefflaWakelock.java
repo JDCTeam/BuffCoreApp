@@ -1,11 +1,11 @@
-package com.jdcteam.mtweaks.utils.kernel.boefflawakelock;
+package com.jdcteam.buffcore.utils.kernel.boefflawakelock;
 
 import android.content.Context;
 
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.root.Control;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.root.Control;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;

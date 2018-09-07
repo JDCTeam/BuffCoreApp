@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.tools;
+package com.jdcteam.buffcore.fragments.tools;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -28,16 +28,16 @@ import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.activities.DataSharingSearchActivity;
-import com.jdcteam.mtweaks.fragments.DescriptionFragment;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.services.monitor.Monitor;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.ViewUtils;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.activities.DataSharingSearchActivity;
+import com.jdcteam.buffcore.fragments.DescriptionFragment;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.services.monitor.Monitor;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.ViewUtils;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.views.recyclerview.SwitchView;
 
 import java.util.List;
 

@@ -1,11 +1,11 @@
-package com.jdcteam.mtweaks.utils;
+package com.jdcteam.buffcore.utils;
 
 import android.content.Context;
 
 import com.github.javiersantos.appupdater.AppUpdater;
 import com.github.javiersantos.appupdater.enums.Display;
 import com.github.javiersantos.appupdater.enums.UpdateFrom;
-import com.jdcteam.mtweaks.R;
+import com.jdcteam.buffcore.R;
 
 /**
  * Created by Morogoku on 12/01/2018.

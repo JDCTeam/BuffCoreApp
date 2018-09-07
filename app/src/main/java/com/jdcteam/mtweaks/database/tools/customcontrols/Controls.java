@@ -17,12 +17,12 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.database.tools.customcontrols;
+package com.jdcteam.buffcore.database.tools.customcontrols;
 
 import android.content.Context;
 
-import com.jdcteam.mtweaks.database.Provider;
-import com.jdcteam.mtweaks.utils.tools.customcontrols.Items;
+import com.jdcteam.buffcore.database.Provider;
+import com.jdcteam.buffcore.utils.tools.customcontrols.Items;
 
 import org.json.JSONException;
 import org.json.JSONObject;

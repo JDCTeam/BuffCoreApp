@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.activities;
+package com.jdcteam.buffcore.activities;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -38,36 +38,36 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.security.ProviderInstaller;
-import com.jdcteam.mtweaks.BuildConfig;
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
-import com.jdcteam.mtweaks.services.profile.Tile;
-import com.jdcteam.mtweaks.utils.AppSettings;
-import com.jdcteam.mtweaks.utils.Device;
-import com.jdcteam.mtweaks.utils.Log;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.kernel.battery.Battery;
-import com.jdcteam.mtweaks.utils.kernel.cpu.CPUBoost;
-import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.jdcteam.mtweaks.utils.kernel.cpu.MSMPerformance;
-import com.jdcteam.mtweaks.utils.kernel.cpu.Temperature;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.Hotplug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.QcomBcl;
-import com.jdcteam.mtweaks.utils.kernel.cpuvoltage.VoltageCl0;
-import com.jdcteam.mtweaks.utils.kernel.cpuvoltage.VoltageCl1;
-import com.jdcteam.mtweaks.utils.kernel.gpu.GPU;
-import com.jdcteam.mtweaks.utils.kernel.gpu.GPUFreqExynos;
-import com.jdcteam.mtweaks.utils.kernel.io.IO;
-import com.jdcteam.mtweaks.utils.kernel.ksm.KSM;
-import com.jdcteam.mtweaks.utils.kernel.misc.Vibration;
-import com.jdcteam.mtweaks.utils.kernel.screen.Screen;
-import com.jdcteam.mtweaks.utils.kernel.sound.Sound;
-import com.jdcteam.mtweaks.utils.kernel.spectrum.Spectrum;
-import com.jdcteam.mtweaks.utils.kernel.thermal.Thermal;
-import com.jdcteam.mtweaks.utils.kernel.vm.ZSwap;
-import com.jdcteam.mtweaks.utils.kernel.wake.Wake;
-import com.jdcteam.mtweaks.utils.kernel.boefflawakelock.BoefflaWakelock;
-import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.buffcore.BuildConfig;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.database.tools.profiles.Profiles;
+import com.jdcteam.buffcore.services.profile.Tile;
+import com.jdcteam.buffcore.utils.AppSettings;
+import com.jdcteam.buffcore.utils.Device;
+import com.jdcteam.buffcore.utils.Log;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.kernel.battery.Battery;
+import com.jdcteam.buffcore.utils.kernel.cpu.CPUBoost;
+import com.jdcteam.buffcore.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.buffcore.utils.kernel.cpu.MSMPerformance;
+import com.jdcteam.buffcore.utils.kernel.cpu.Temperature;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.Hotplug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.QcomBcl;
+import com.jdcteam.buffcore.utils.kernel.cpuvoltage.VoltageCl0;
+import com.jdcteam.buffcore.utils.kernel.cpuvoltage.VoltageCl1;
+import com.jdcteam.buffcore.utils.kernel.gpu.GPU;
+import com.jdcteam.buffcore.utils.kernel.gpu.GPUFreqExynos;
+import com.jdcteam.buffcore.utils.kernel.io.IO;
+import com.jdcteam.buffcore.utils.kernel.ksm.KSM;
+import com.jdcteam.buffcore.utils.kernel.misc.Vibration;
+import com.jdcteam.buffcore.utils.kernel.screen.Screen;
+import com.jdcteam.buffcore.utils.kernel.sound.Sound;
+import com.jdcteam.buffcore.utils.kernel.spectrum.Spectrum;
+import com.jdcteam.buffcore.utils.kernel.thermal.Thermal;
+import com.jdcteam.buffcore.utils.kernel.vm.ZSwap;
+import com.jdcteam.buffcore.utils.kernel.wake.Wake;
+import com.jdcteam.buffcore.utils.kernel.boefflawakelock.BoefflaWakelock;
+import com.jdcteam.buffcore.utils.root.RootUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -94,10 +94,10 @@ public class MainActivity extends BaseActivity {
         }
 
         // If setting is applied on boot, mAppliedOnBoot = 1
-        int mAppliedOnboot = Utils.strToInt(RootUtils.getProp("mtweaks.applied_onboot"));
+        int mAppliedOnboot = Utils.strToInt(RootUtils.getProp("buffcore.applied_onboot"));
 
         // If voltages are saved on Service.java, mVoltageSaved = 1
-        int mVoltageSaved = Utils.strToInt(RootUtils.getProp("mtweaks.voltage_saved"));
+        int mVoltageSaved = Utils.strToInt(RootUtils.getProp("buffcore.voltage_saved"));
 
         // Check if system is rebooted
         Boolean mIsBooted = AppSettings.getBoolean("is_booted", true, this);
@@ -115,9 +115,9 @@ public class MainActivity extends BaseActivity {
         }
         AppSettings.saveBoolean("is_booted", false, this);
 
-        // Check if exist /data/.mtweaks folder
-        if (!Utils.existFile("/data/.mtweaks")) {
-            RootUtils.runCommand("mkdir /data/.mtweaks");
+        // Check if exist /data/.buffcore folder
+        if (!Utils.existFile("/data/.buffcore")) {
+            RootUtils.runCommand("mkdir /data/.buffcore");
         }
 
         // Initialice profile Sharedpreference
@@ -188,7 +188,7 @@ public class MainActivity extends BaseActivity {
         // If has MaxPoolPercent save file
         if (!AppSettings.getBoolean("max_pool_percent_saved", false, this)) {
             if (ZSwap.hasMaxPoolPercent()) {
-                RootUtils.runCommand("cp /sys/module/zswap/parameters/max_pool_percent /data/.mtweaks/max_pool_percent");
+                RootUtils.runCommand("cp /sys/module/zswap/parameters/max_pool_percent /data/.buffcore/max_pool_percent");
                 AppSettings.saveBoolean("max_pool_percent_saved", true, this);
             }
         }

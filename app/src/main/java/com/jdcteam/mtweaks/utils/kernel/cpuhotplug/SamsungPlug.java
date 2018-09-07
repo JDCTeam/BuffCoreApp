@@ -1,10 +1,10 @@
-package com.jdcteam.mtweaks.utils.kernel.cpuhotplug;
+package com.jdcteam.buffcore.utils.kernel.cpuhotplug;
 
 import android.content.Context;
 
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.root.Control;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.root.Control;
 
 /**
  * Created by Morogoku on 25/04/2017.

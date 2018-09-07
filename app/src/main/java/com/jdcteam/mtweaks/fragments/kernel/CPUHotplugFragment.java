@@ -17,34 +17,34 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.kernel;
+package com.jdcteam.buffcore.fragments.kernel;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.AiOHotplug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.AlucardHotplug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.AutoSmp;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.BluPlug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.CoreCtl;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.IntelliPlug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.LazyPlug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.MBHotplug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.MPDecision;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.MSMHotplug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.MakoHotplug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.SamsungPlug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.ThunderPlug;
-import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.ZenDecision;
-import com.jdcteam.mtweaks.views.recyclerview.CardView;
-import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
-import com.jdcteam.mtweaks.views.recyclerview.SelectView;
-import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
-import com.jdcteam.mtweaks.views.recyclerview.TitleView;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.AiOHotplug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.AlucardHotplug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.AutoSmp;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.BluPlug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.CoreCtl;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.IntelliPlug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.LazyPlug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.MBHotplug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.MPDecision;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.MSMHotplug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.MakoHotplug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.SamsungPlug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.ThunderPlug;
+import com.jdcteam.buffcore.utils.kernel.cpuhotplug.ZenDecision;
+import com.jdcteam.buffcore.views.recyclerview.CardView;
+import com.jdcteam.buffcore.views.recyclerview.DescriptionView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.views.recyclerview.SeekBarView;
+import com.jdcteam.buffcore.views.recyclerview.SelectView;
+import com.jdcteam.buffcore.views.recyclerview.SwitchView;
+import com.jdcteam.buffcore.views.recyclerview.TitleView;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -17,14 +17,14 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.kernel.gpu;
+package com.jdcteam.buffcore.utils.kernel.gpu;
 
 import android.content.Context;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.root.Control;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.root.Control;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -45,7 +45,7 @@ public class GPUFreqExynos {
         return sIOInstance;
     }
 
-    public static final String BACKUP = "/data/.mtweaks/gpu_stock_voltage";
+    public static final String BACKUP = "/data/.buffcore/gpu_stock_voltage";
 
     private static final String MAX_FREQ_STOCK = "/sys/kernel/gpu/gpu_max_clock";
     private static final String MIN_FREQ_STOCK = "/sys/kernel/gpu/gpu_min_clock";

@@ -17,16 +17,16 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.views.recyclerview.downloads;
+package com.jdcteam.buffcore.views.recyclerview.downloads;
 
 import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.TextView;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.tools.SupportedDownloads;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.tools.SupportedDownloads;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 /**
  * Created by willi on 07.07.16.

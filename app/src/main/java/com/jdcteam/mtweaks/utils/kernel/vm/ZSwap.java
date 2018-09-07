@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.utils.kernel.vm;
+package com.jdcteam.buffcore.utils.kernel.vm;
 
 import android.content.Context;
 
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.utils.Utils;
-import com.jdcteam.mtweaks.utils.root.Control;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.utils.Utils;
+import com.jdcteam.buffcore.utils.root.Control;
 
 /**
  * Created by willi on 13.08.16.
@@ -33,7 +33,7 @@ public class ZSwap {
 
     private static final String ZSWAP = "/sys/module/zswap/parameters/enabled";
     private static final String MAX_POOL_PERCENT = "/sys/module/zswap/parameters/max_pool_percent";
-    private static final String STOCK_MAX_POOL_PERCENT = "/data/.mtweaks/max_pool_percent";
+    private static final String STOCK_MAX_POOL_PERCENT = "/data/.buffcore/max_pool_percent";
     private static final String MAX_COMPRESSION_RATIO = "/sys/module/zswap/parameters/max_compression_ratio";
 
     public static void setMaxCompressionRatio(int value, Context context) {

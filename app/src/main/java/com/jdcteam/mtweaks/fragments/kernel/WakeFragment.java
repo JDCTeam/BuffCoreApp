@@ -17,24 +17,24 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.kernel;
+package com.jdcteam.buffcore.fragments.kernel;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.kernel.wake.Dt2s;
-import com.jdcteam.mtweaks.utils.kernel.wake.Dt2w;
-import com.jdcteam.mtweaks.utils.kernel.wake.Gestures;
-import com.jdcteam.mtweaks.utils.kernel.wake.Misc;
-import com.jdcteam.mtweaks.utils.kernel.wake.S2s;
-import com.jdcteam.mtweaks.utils.kernel.wake.S2w;
-import com.jdcteam.mtweaks.utils.kernel.wake.T2w;
-import com.jdcteam.mtweaks.views.recyclerview.CardView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
-import com.jdcteam.mtweaks.views.recyclerview.SelectView;
-import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
-import com.jdcteam.mtweaks.views.recyclerview.ValueView;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.ApplyOnBootFragment;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.kernel.wake.Dt2s;
+import com.jdcteam.buffcore.utils.kernel.wake.Dt2w;
+import com.jdcteam.buffcore.utils.kernel.wake.Gestures;
+import com.jdcteam.buffcore.utils.kernel.wake.Misc;
+import com.jdcteam.buffcore.utils.kernel.wake.S2s;
+import com.jdcteam.buffcore.utils.kernel.wake.S2w;
+import com.jdcteam.buffcore.utils.kernel.wake.T2w;
+import com.jdcteam.buffcore.views.recyclerview.CardView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.views.recyclerview.SeekBarView;
+import com.jdcteam.buffcore.views.recyclerview.SelectView;
+import com.jdcteam.buffcore.views.recyclerview.SwitchView;
+import com.jdcteam.buffcore.views.recyclerview.ValueView;
 
 import java.util.ArrayList;
 import java.util.List;

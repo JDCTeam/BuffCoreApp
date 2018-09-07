@@ -17,16 +17,16 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.jdcteam.mtweaks.fragments.other;
+package com.jdcteam.buffcore.fragments.other;
 
 import android.support.design.widget.Snackbar;
 
-import com.jdcteam.mtweaks.R;
-import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.jdcteam.mtweaks.utils.WebpageReader;
-import com.jdcteam.mtweaks.utils.other.Contributors;
-import com.jdcteam.mtweaks.views.recyclerview.ContributorView;
-import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.buffcore.R;
+import com.jdcteam.buffcore.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.buffcore.utils.WebpageReader;
+import com.jdcteam.buffcore.utils.other.Contributors;
+import com.jdcteam.buffcore.views.recyclerview.ContributorView;
+import com.jdcteam.buffcore.views.recyclerview.RecyclerViewItem;
 
 import java.util.List;
 
