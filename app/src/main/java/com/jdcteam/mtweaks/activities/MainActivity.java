@@ -145,7 +145,7 @@ public class MainActivity extends BaseActivity {
             AppSettings.saveBoolean("s7_battery_saved", false, this);
         }
 
-        // Check if MTweaks version is changed
+        // Check if BuffCore version is changed
         String appVersionOld = AppSettings.getString("app_version_old", "", this);
         String appVersionNew = Utils.appVersion();
         AppSettings.saveBoolean("show_changelog", true, this);

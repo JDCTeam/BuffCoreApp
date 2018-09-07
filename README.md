@@ -1,4 +1,4 @@
-# MTweaks
+# BuffCore
 
 It is a Mod of Grarak's [KernelAdiutor](https://github.com/Grarak/KernelAdiutor) for compatibilize to Samsung Exynos.
 Thanks to Willi Ye for this great application.
@@ -47,17 +47,17 @@ _(Many sys interface paths has been taken from his [UKM-Project](https://github.
 
     Copyright (C) 2015-2016 Willi Ye <williye97@gmail.com>
 	Copyright (C) 2017 morogoku <morogoku@hotmail.com>
-	
+		Copyright (C) 2018 JDCTeam <dkatikaridis@gmail.com.com>
     
-    MTweaks is free software: you can redistribute it and/or modify
+    BuffCore is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
     
-    MTweaks is distributed in the hope that it will be useful,
+    BuffCore is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
     
     You should have received a copy of the GNU General Public License
-    along with MTweaks.  If not, see <http://www.gnu.org/licenses/>.
+    along with BuffCore.  If not, see <http://www.gnu.org/licenses/>.
