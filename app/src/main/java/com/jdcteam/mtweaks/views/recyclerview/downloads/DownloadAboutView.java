@@ -48,38 +48,6 @@ public class DownloadAboutView extends RecyclerViewItem {
     public void onCreateView(View view) {
         super.onCreateView(view);
 
-        final String xda = mKernelContent.getXDA();
-        final String github = mKernelContent.getGitHub();
-        final String googlePlus = mKernelContent.getGooglePlus();
-        final String paypal = mKernelContent.getPayPal();
-
-        if (xda != null || github != null || googlePlus != null || paypal != null) {
-            view.findViewById(R.id.links_layout).setVisibility(View.VISIBLE);
-
-            if (xda != null) {
-                view.findViewById(R.id.xda_button).setVisibility(View.VISIBLE);
-                view.findViewById(R.id.xda_button).setOnClickListener(v
-                        -> Utils.launchUrl(xda, v.getContext()));
-            }
-
-            if (github != null) {
-                view.findViewById(R.id.github_button).setVisibility(View.VISIBLE);
-                view.findViewById(R.id.github_button).setOnClickListener(v
-                        -> Utils.launchUrl(github, v.getContext()));
-            }
-
-            if (googlePlus != null) {
-                view.findViewById(R.id.googleplus_button).setVisibility(View.VISIBLE);
-                view.findViewById(R.id.googleplus_button).setOnClickListener(v
-                        -> Utils.launchUrl(googlePlus, v.getContext()));
-            }
-
-            if (paypal != null) {
-                view.findViewById(R.id.paypal_button).setVisibility(View.VISIBLE);
-                view.findViewById(R.id.paypal_button).setOnClickListener(v
-                        -> Utils.launchUrl(paypal, v.getContext()));
-            }
-        }
 
         TextView shortDescription = view.findViewById(R.id.short_description);
         TextView longDescription = view.findViewById(R.id.long_description);

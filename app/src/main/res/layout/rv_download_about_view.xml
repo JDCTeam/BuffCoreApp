@@ -20,55 +20,7 @@
             android:orientation="vertical"
             android:visibility="gone">
 
-            <LinearLayout
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:orientation="horizontal">
-
-                <android.support.v7.widget.AppCompatImageButton
-                    android:id="@+id/xda_button"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_weight="1"
-                    android:background="?attr/selectableItemBackgroundBorderless"
-                    android:scaleType="fitCenter"
-                    android:visibility="gone"
-                    app:srcCompat="@drawable/ic_xda" />
-
-                <android.support.v7.widget.AppCompatImageButton
-                    android:id="@+id/github_button"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:background="?attr/selectableItemBackgroundBorderless"
-                    android:scaleType="fitCenter"
-                    android:visibility="gone"
-                    app:srcCompat="@drawable/ic_github" />
-
-                <android.support.v7.widget.AppCompatImageButton
-                    android:id="@+id/googleplus_button"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_weight="1"
-                    android:background="?attr/selectableItemBackgroundBorderless"
-                    android:scaleType="fitCenter"
-                    android:visibility="gone"
-                    app:srcCompat="@drawable/ic_googleplus" />
-
-                <android.support.v7.widget.AppCompatImageButton
-                    android:id="@+id/paypal_button"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_weight="1"
-                    android:background="?attr/selectableItemBackgroundBorderless"
-                    android:scaleType="fitCenter"
-                    android:visibility="gone"
-                    app:srcCompat="@drawable/ic_paypal" />
-
-            </LinearLayout>
-
+          
             <View
                 style="@style/Divider"
                 android:layout_marginBottom="20dp"
