@@ -2,6 +2,6 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:initialLayout="@layout/widget_profile"
     android:minHeight="48dip"
-    android:minWidth="80dip"
+    android:minWidth="120dip"
     android:previewImage="@drawable/profile_widget_preview"
     android:resizeMode="horizontal|vertical" />
