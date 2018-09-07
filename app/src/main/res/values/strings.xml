@@ -10,7 +10,6 @@
     <string name="open">Open %s</string>
     <string name="disable">Disable</string>
     <string name="changelog">BuffCore v%s</string>
-    <string name="changelog_message">\n* Fixed Boeffla Wakelock, now works much faster, thanks @Grouxho\n\n\n</string>
     <string name="close">Close</string>
 
     <!-- Security -->

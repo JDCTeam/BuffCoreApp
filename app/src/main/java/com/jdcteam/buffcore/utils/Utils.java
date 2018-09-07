@@ -88,16 +88,6 @@ public class Utils {
 
     public static void changelogDialog(Context context) {
 
-        String versionName = appVersion();
-
-        AlertDialog.Builder alert = new AlertDialog.Builder(context);
-        alert.setTitle(String.format(context.getString(R.string.changelog), versionName ));
-        alert.setMessage(context.getString(R.string.changelog_message));
-        alert.setPositiveButton(context.getString(R.string.close), (dialog, id) -> {
-            AppSettings.saveBoolean("show_changelog", false, context);
-        });
-
-        alert.show();
     }
 
     public static boolean isGooglePlayServicesAvailable(Context context) {
