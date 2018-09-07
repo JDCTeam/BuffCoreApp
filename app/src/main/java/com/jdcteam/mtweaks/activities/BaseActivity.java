@@ -59,13 +59,13 @@ public abstract class BaseActivity extends AppCompatActivity {
         }
 
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
-        Utils.DARK_THEME = Themes.isDarkTheme(this);
+        //Utils.DARK_THEME = Themes.isDarkTheme(this);
         Themes.Theme theme = Themes.getTheme(this, Utils.DARK_THEME);
-        if (Utils.DARK_THEME) {
+        //if (Utils.DARK_THEME) {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-        } else {
+        //} else {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-        }
+        //}
         setTheme(theme.getStyle());
         super.onCreate(savedInstanceState);
 

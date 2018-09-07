@@ -36,9 +36,7 @@
     <PreferenceCategory
         android:key="user_interface"
         android:title="@string/user_interface">
-        <SwitchPreferenceCompat
-            android:key="darktheme"
-            android:summary="@string/dark_theme" />
+   
         <SwitchPreferenceCompat
             android:key="forceenglish"
             android:summary="@string/force_english" />

@@ -60,10 +60,10 @@ public class Themes {
 
     private static final String THEME_PREF_KEY = "application_theme";
     private static final String DARK_THEME_PREF_KEY = "darktheme";
-    private static final String DEFAULT_THEME = "defaultPrimary;pinkAccent";
+    private static final String DEFAULT_THEME = "defaultPrimary;cyanAccent";
 
     public static boolean isDarkTheme(Context context) {
-        return Prefs.getBoolean(DARK_THEME_PREF_KEY, false, context);
+        return Prefs.getBoolean(DARK_THEME_PREF_KEY, true, context);
     }
 
     public static Theme getTheme(Context context, boolean darktheme) {

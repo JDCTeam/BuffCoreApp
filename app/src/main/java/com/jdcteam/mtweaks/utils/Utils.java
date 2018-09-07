@@ -80,7 +80,7 @@ import java.util.Random;
 public class Utils {
 
     public static boolean DONATED = true;
-    public static boolean DARK_THEME;
+    public static boolean DARK_THEME=true;
 
     public static String appVersion(){
         return BuildConfig.VERSION_NAME;
