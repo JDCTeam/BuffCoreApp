@@ -17,15 +17,15 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views.recyclerview.overallstatistics;
+package com.jdcteam.mtweaks.views.recyclerview.overallstatistics;
 
 import android.view.View;
 import android.widget.TextView;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.kernel.cpu.Temperature;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.kernel.cpu.Temperature;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
 
 /**
  * Created by willi on 04.08.16.

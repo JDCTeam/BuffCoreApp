@@ -1,15 +1,15 @@
-package com.moro.mtweaks.fragments.kernel;
+package com.jdcteam.mtweaks.fragments.kernel;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.kernel.hmp.Hmp;
-import com.moro.mtweaks.views.recyclerview.CardView;
-import com.moro.mtweaks.views.recyclerview.DescriptionView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.views.recyclerview.SeekBarView;
-import com.moro.mtweaks.views.recyclerview.TitleView;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.kernel.hmp.Hmp;
+import com.jdcteam.mtweaks.views.recyclerview.CardView;
+import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
+import com.jdcteam.mtweaks.views.recyclerview.TitleView;
 
 import java.util.LinkedHashMap;
 import java.util.List;

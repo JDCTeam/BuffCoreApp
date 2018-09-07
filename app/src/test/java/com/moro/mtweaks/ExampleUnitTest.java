@@ -1,4 +1,4 @@
-package com.moro.mtweaks;
+package com.jdcteam.mtweaks;
 
 import org.junit.Test;
 

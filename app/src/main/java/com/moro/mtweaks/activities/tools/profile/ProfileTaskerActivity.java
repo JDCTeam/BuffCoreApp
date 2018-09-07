@@ -17,19 +17,19 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.activities.tools.profile;
+package com.jdcteam.mtweaks.activities.tools.profile;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
-import com.moro.mtweaks.BuildConfig;
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.BaseActivity;
-import com.moro.mtweaks.database.tools.profiles.Profiles;
-import com.moro.mtweaks.fragments.tools.ProfileFragment;
-import com.moro.mtweaks.services.profile.Tasker;
+import com.jdcteam.mtweaks.BuildConfig;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.BaseActivity;
+import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
+import com.jdcteam.mtweaks.fragments.tools.ProfileFragment;
+import com.jdcteam.mtweaks.services.profile.Tasker;
 
 import java.util.List;
 

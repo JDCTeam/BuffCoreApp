@@ -17,19 +17,19 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.kernel;
+package com.jdcteam.mtweaks.fragments.kernel;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.kernel.cpuvoltage.VoltageCl0;
-import com.moro.mtweaks.views.recyclerview.CardView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.views.recyclerview.SeekBarView;
-import com.moro.mtweaks.views.recyclerview.SwitchView;
-import com.moro.mtweaks.views.recyclerview.TitleView;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.kernel.cpuvoltage.VoltageCl0;
+import com.jdcteam.mtweaks.views.recyclerview.CardView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
+import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
+import com.jdcteam.mtweaks.views.recyclerview.TitleView;
 
 import java.util.ArrayList;
 import java.util.List;

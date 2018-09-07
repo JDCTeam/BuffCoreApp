@@ -17,9 +17,9 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.database.tools.customcontrols;
+package com.jdcteam.mtweaks.database.tools.customcontrols;
 
-import com.moro.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -17,22 +17,22 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.services.profile;
+package com.jdcteam.mtweaks.services.profile;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.moro.mtweaks.utils.Log;
+import com.jdcteam.mtweaks.utils.Log;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.database.tools.profiles.Profiles;
-import com.moro.mtweaks.services.boot.ApplyOnBoot;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.moro.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
+import com.jdcteam.mtweaks.services.boot.ApplyOnBoot;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,7 +47,7 @@ public class Tile extends BroadcastReceiver {
 
     private static final String NAME = "name";
     private static final String COMMANDS = "commands";
-    private static final String ACTION_TOGGLE_STATE = "com.moro.mtweaks.action.ACTION_TOGGLE_STATE";
+    private static final String ACTION_TOGGLE_STATE = "com.jdcteam.mtweaks.action.ACTION_TOGGLE_STATE";
 
     @Override
     public void onReceive(Context context, Intent intent) {

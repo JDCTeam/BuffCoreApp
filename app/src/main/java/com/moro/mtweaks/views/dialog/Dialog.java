@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views.dialog;
+package com.jdcteam.mtweaks.views.dialog;
 
 import android.app.AlertDialog;
 import android.content.Context;

@@ -17,24 +17,24 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.kernel;
+package com.jdcteam.mtweaks.fragments.kernel;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.kernel.wake.Dt2s;
-import com.moro.mtweaks.utils.kernel.wake.Dt2w;
-import com.moro.mtweaks.utils.kernel.wake.Gestures;
-import com.moro.mtweaks.utils.kernel.wake.Misc;
-import com.moro.mtweaks.utils.kernel.wake.S2s;
-import com.moro.mtweaks.utils.kernel.wake.S2w;
-import com.moro.mtweaks.utils.kernel.wake.T2w;
-import com.moro.mtweaks.views.recyclerview.CardView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.views.recyclerview.SeekBarView;
-import com.moro.mtweaks.views.recyclerview.SelectView;
-import com.moro.mtweaks.views.recyclerview.SwitchView;
-import com.moro.mtweaks.views.recyclerview.ValueView;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.kernel.wake.Dt2s;
+import com.jdcteam.mtweaks.utils.kernel.wake.Dt2w;
+import com.jdcteam.mtweaks.utils.kernel.wake.Gestures;
+import com.jdcteam.mtweaks.utils.kernel.wake.Misc;
+import com.jdcteam.mtweaks.utils.kernel.wake.S2s;
+import com.jdcteam.mtweaks.utils.kernel.wake.S2w;
+import com.jdcteam.mtweaks.utils.kernel.wake.T2w;
+import com.jdcteam.mtweaks.views.recyclerview.CardView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
+import com.jdcteam.mtweaks.views.recyclerview.SelectView;
+import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
+import com.jdcteam.mtweaks.views.recyclerview.ValueView;
 
 import java.util.ArrayList;
 import java.util.List;

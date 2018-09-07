@@ -17,9 +17,9 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils.kernel.screen;
+package com.jdcteam.mtweaks.utils.kernel.screen;
 
-import com.moro.mtweaks.utils.Log;
+import com.jdcteam.mtweaks.utils.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;

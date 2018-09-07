@@ -17,10 +17,10 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils.root;
+package com.jdcteam.mtweaks.utils.root;
 
-import com.moro.mtweaks.utils.Log;
-import com.moro.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.Log;
+import com.jdcteam.mtweaks.utils.Utils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

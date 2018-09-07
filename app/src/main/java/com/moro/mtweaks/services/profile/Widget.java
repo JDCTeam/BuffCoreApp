@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.services.profile;
+package com.jdcteam.mtweaks.services.profile;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -31,12 +31,12 @@ import android.util.SparseArray;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.database.tools.profiles.Profiles;
-import com.moro.mtweaks.services.boot.ApplyOnBoot;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.moro.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
+import com.jdcteam.mtweaks.services.boot.ApplyOnBoot;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.activities;
+package com.jdcteam.mtweaks.activities;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -30,7 +30,7 @@ import android.support.v7.widget.AppCompatEditText;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.moro.mtweaks.R;
+import com.jdcteam.mtweaks.R;
 
 /**
  * Created by willi on 01.07.16.

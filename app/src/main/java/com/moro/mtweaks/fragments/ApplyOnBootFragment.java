@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments;
+package com.jdcteam.mtweaks.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -28,31 +28,31 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.tools.profile.ProfileActivity;
-import com.moro.mtweaks.fragments.kernel.BatteryFragment;
-import com.moro.mtweaks.fragments.kernel.BoefflaWakelockFragment;
-import com.moro.mtweaks.fragments.kernel.CPUFragment;
-import com.moro.mtweaks.fragments.kernel.CPUHotplugFragment;
-import com.moro.mtweaks.fragments.kernel.CPUVoltageCl0Fragment;
-import com.moro.mtweaks.fragments.kernel.CPUVoltageCl1Fragment;
-import com.moro.mtweaks.fragments.kernel.EntropyFragment;
-import com.moro.mtweaks.fragments.kernel.GPUFragment;
-import com.moro.mtweaks.fragments.kernel.DvfsFragment;
-import com.moro.mtweaks.fragments.kernel.HmpFragment;
-import com.moro.mtweaks.fragments.kernel.IOFragment;
-import com.moro.mtweaks.fragments.kernel.KSMFragment;
-import com.moro.mtweaks.fragments.kernel.LEDFragment;
-import com.moro.mtweaks.fragments.kernel.LMKFragment;
-import com.moro.mtweaks.fragments.kernel.WakelockFragment;
-import com.moro.mtweaks.fragments.kernel.MiscFragment;
-import com.moro.mtweaks.fragments.kernel.ScreenFragment;
-import com.moro.mtweaks.fragments.kernel.SoundFragment;
-import com.moro.mtweaks.fragments.kernel.ThermalFragment;
-import com.moro.mtweaks.fragments.kernel.VMFragment;
-import com.moro.mtweaks.fragments.kernel.WakeFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.tools.profile.ProfileActivity;
+import com.jdcteam.mtweaks.fragments.kernel.BatteryFragment;
+import com.jdcteam.mtweaks.fragments.kernel.BoefflaWakelockFragment;
+import com.jdcteam.mtweaks.fragments.kernel.CPUFragment;
+import com.jdcteam.mtweaks.fragments.kernel.CPUHotplugFragment;
+import com.jdcteam.mtweaks.fragments.kernel.CPUVoltageCl0Fragment;
+import com.jdcteam.mtweaks.fragments.kernel.CPUVoltageCl1Fragment;
+import com.jdcteam.mtweaks.fragments.kernel.EntropyFragment;
+import com.jdcteam.mtweaks.fragments.kernel.GPUFragment;
+import com.jdcteam.mtweaks.fragments.kernel.DvfsFragment;
+import com.jdcteam.mtweaks.fragments.kernel.HmpFragment;
+import com.jdcteam.mtweaks.fragments.kernel.IOFragment;
+import com.jdcteam.mtweaks.fragments.kernel.KSMFragment;
+import com.jdcteam.mtweaks.fragments.kernel.LEDFragment;
+import com.jdcteam.mtweaks.fragments.kernel.LMKFragment;
+import com.jdcteam.mtweaks.fragments.kernel.WakelockFragment;
+import com.jdcteam.mtweaks.fragments.kernel.MiscFragment;
+import com.jdcteam.mtweaks.fragments.kernel.ScreenFragment;
+import com.jdcteam.mtweaks.fragments.kernel.SoundFragment;
+import com.jdcteam.mtweaks.fragments.kernel.ThermalFragment;
+import com.jdcteam.mtweaks.fragments.kernel.VMFragment;
+import com.jdcteam.mtweaks.fragments.kernel.WakeFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.AppSettings;
 
 import java.util.HashMap;
 

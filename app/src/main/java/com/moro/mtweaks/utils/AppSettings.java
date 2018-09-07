@@ -17,12 +17,12 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils;
+package com.jdcteam.mtweaks.utils;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 
-import com.moro.mtweaks.R;
+import com.jdcteam.mtweaks.R;
 
 /**
  * Created by willi on 11.03.18.

@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils;
+package com.jdcteam.mtweaks.utils;
 
 import android.content.Context;
 import android.support.annotation.ColorRes;
 import android.support.annotation.StyleRes;
 
-import com.moro.mtweaks.R;
+import com.jdcteam.mtweaks.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

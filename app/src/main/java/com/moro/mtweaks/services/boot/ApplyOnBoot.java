@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.services.boot;
+package com.jdcteam.mtweaks.services.boot;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -29,24 +29,24 @@ import android.os.Build;
 import android.os.Handler;
 import android.support.v4.app.NotificationCompat;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.MainActivity;
-import com.moro.mtweaks.database.Settings;
-import com.moro.mtweaks.database.tools.customcontrols.Controls;
-import com.moro.mtweaks.database.tools.profiles.Profiles;
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.fragments.kernel.CPUHotplugFragment;
-import com.moro.mtweaks.services.profile.Tile;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.NotificationId;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.moro.mtweaks.utils.kernel.cpu.MSMPerformance;
-import com.moro.mtweaks.utils.kernel.cpuhotplug.CoreCtl;
-import com.moro.mtweaks.utils.kernel.cpuhotplug.MPDecision;
-import com.moro.mtweaks.utils.root.Control;
-import com.moro.mtweaks.utils.root.RootFile;
-import com.moro.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.MainActivity;
+import com.jdcteam.mtweaks.database.Settings;
+import com.jdcteam.mtweaks.database.tools.customcontrols.Controls;
+import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.fragments.kernel.CPUHotplugFragment;
+import com.jdcteam.mtweaks.services.profile.Tile;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.NotificationId;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.mtweaks.utils.kernel.cpu.MSMPerformance;
+import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.CoreCtl;
+import com.jdcteam.mtweaks.utils.kernel.cpuhotplug.MPDecision;
+import com.jdcteam.mtweaks.utils.root.Control;
+import com.jdcteam.mtweaks.utils.root.RootFile;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

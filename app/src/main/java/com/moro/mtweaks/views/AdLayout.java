@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views;
+package com.jdcteam.mtweaks.views;
 
 import android.app.Activity;
 import android.content.Context;
@@ -40,11 +40,11 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.ViewUtils;
-import com.moro.mtweaks.views.dialog.Dialog;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.views.dialog.Dialog;
 
 import org.json.JSONArray;
 import org.json.JSONException;

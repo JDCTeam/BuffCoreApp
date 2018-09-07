@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils.server;
+package com.jdcteam.mtweaks.utils.server;
 
 import org.json.JSONArray;
 import org.json.JSONException;

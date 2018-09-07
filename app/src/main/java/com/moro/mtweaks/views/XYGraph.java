@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views;
+package com.jdcteam.mtweaks.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -30,9 +30,9 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.ViewUtils;
 
 import java.util.ArrayList;
 

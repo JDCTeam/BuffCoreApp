@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.services.profile;
+package com.jdcteam.mtweaks.services.profile;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -25,13 +25,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.services.boot.ApplyOnBoot;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.Log;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.moro.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.services.boot.ApplyOnBoot;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.Log;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
 
 /**
  * Created by willi on 21.07.16.
@@ -41,8 +41,8 @@ public class Tasker extends BroadcastReceiver {
     public static final String EXTRA_BUNDLE = "com.twofortyfouram.locale.intent.extra.BUNDLE";
     public static final String EXTRA_STRING_BLURB = "com.twofortyfouram.locale.intent.extra.BLURB";
     public static final String ACTION_FIRE_SETTING = "com.twofortyfouram.locale.intent.action.FIRE_SETTING";
-    public static final String BUNDLE_EXTRA_STRING_MESSAGE = "com.moro.mtweaks.tasker.extra.STRING_MESSAGE";
-    public static final String BUNDLE_EXTRA_INT_VERSION_CODE = "com.moro.mtweaks.tasker.extra.INT_VERSION_CODE";
+    public static final String BUNDLE_EXTRA_STRING_MESSAGE = "com.jdcteam.mtweaks.tasker.extra.STRING_MESSAGE";
+    public static final String BUNDLE_EXTRA_INT_VERSION_CODE = "com.jdcteam.mtweaks.tasker.extra.INT_VERSION_CODE";
     public static final String DIVIDER = "wkefnewnfewp";
 
     @Override

@@ -1,4 +1,4 @@
-package com.moro.mtweaks.utils;
+package com.jdcteam.mtweaks.utils;
 
 /**
  * Created by willi on 27.11.17.

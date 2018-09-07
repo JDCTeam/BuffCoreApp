@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.kernel;
+package com.jdcteam.mtweaks.fragments.kernel;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -25,18 +25,18 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.BatteryManager;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.fragments.DescriptionFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.kernel.battery.Battery;
-import com.moro.mtweaks.views.recyclerview.CardView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.views.recyclerview.SeekBarView;
-import com.moro.mtweaks.views.recyclerview.StatsView;
-import com.moro.mtweaks.views.recyclerview.SwitchView;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.fragments.DescriptionFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.kernel.battery.Battery;
+import com.jdcteam.mtweaks.views.recyclerview.CardView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
+import com.jdcteam.mtweaks.views.recyclerview.StatsView;
+import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
 
 import java.util.ArrayList;
 import java.util.List;

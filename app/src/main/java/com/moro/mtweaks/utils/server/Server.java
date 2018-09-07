@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils.server;
+package com.jdcteam.mtweaks.utils.server;
 
 /**
  * Created by willi on 18.09.17.

@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views.recyclerview;
+package com.jdcteam.mtweaks.views.recyclerview;
 
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.SwitchCompat;
 import android.view.View;
 
-import com.moro.mtweaks.R;
+import com.jdcteam.mtweaks.R;
 
 import java.util.ArrayList;
 import java.util.List;

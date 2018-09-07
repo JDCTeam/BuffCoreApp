@@ -17,15 +17,15 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views.recyclerview;
+package com.jdcteam.mtweaks.views.recyclerview;
 
 import android.view.View;
 import android.widget.TextView;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.ViewUtils;
-import com.moro.mtweaks.utils.other.Contributors;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.utils.other.Contributors;
 import com.mikhaellopez.circularimageview.CircularImageView;
 
 /**

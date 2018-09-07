@@ -17,20 +17,20 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.tools;
+package com.jdcteam.mtweaks.fragments.tools;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.database.Settings;
-import com.moro.mtweaks.database.tools.customcontrols.Controls;
-import com.moro.mtweaks.database.tools.profiles.Profiles;
-import com.moro.mtweaks.fragments.DescriptionFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.ViewUtils;
-import com.moro.mtweaks.views.dialog.Dialog;
-import com.moro.mtweaks.views.recyclerview.DescriptionView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.views.recyclerview.TitleView;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.database.Settings;
+import com.jdcteam.mtweaks.database.tools.customcontrols.Controls;
+import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
+import com.jdcteam.mtweaks.fragments.DescriptionFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.views.dialog.Dialog;
+import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.views.recyclerview.TitleView;
 
 import java.util.ArrayList;
 import java.util.HashMap;

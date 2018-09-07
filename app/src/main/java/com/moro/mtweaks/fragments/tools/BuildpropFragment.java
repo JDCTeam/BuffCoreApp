@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.tools;
+package com.jdcteam.mtweaks.fragments.tools;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -37,16 +37,16 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.fragments.BaseFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.ViewUtils;
-import com.moro.mtweaks.utils.root.RootUtils;
-import com.moro.mtweaks.utils.tools.Buildprop;
-import com.moro.mtweaks.views.dialog.Dialog;
-import com.moro.mtweaks.views.recyclerview.DescriptionView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.fragments.BaseFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.utils.tools.Buildprop;
+import com.jdcteam.mtweaks.views.dialog.Dialog;
+import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
 
 import java.util.LinkedHashMap;
 import java.util.List;

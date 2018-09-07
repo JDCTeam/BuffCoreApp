@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.tools;
+package com.jdcteam.mtweaks.fragments.tools;
 
 import android.Manifest;
 import android.appwidget.AppWidgetManager;
@@ -41,32 +41,32 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.FilePickerActivity;
-import com.moro.mtweaks.activities.NavigationActivity;
-import com.moro.mtweaks.activities.tools.profile.ProfileActivity;
-import com.moro.mtweaks.activities.tools.profile.ProfileEditActivity;
-import com.moro.mtweaks.activities.tools.profile.ProfileTaskerActivity;
-import com.moro.mtweaks.database.tools.profiles.ExportProfile;
-import com.moro.mtweaks.database.tools.profiles.ImportProfile;
-import com.moro.mtweaks.database.tools.profiles.Profiles;
-import com.moro.mtweaks.fragments.BaseFragment;
-import com.moro.mtweaks.fragments.DescriptionFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.fragments.SwitcherFragment;
-import com.moro.mtweaks.services.boot.ApplyOnBoot;
-import com.moro.mtweaks.services.profile.Tile;
-import com.moro.mtweaks.services.profile.Widget;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.ViewUtils;
-import com.moro.mtweaks.utils.kernel.cpu.CPUFreq;
-import com.moro.mtweaks.utils.root.Control;
-import com.moro.mtweaks.utils.root.RootUtils;
-import com.moro.mtweaks.views.dialog.Dialog;
-import com.moro.mtweaks.views.recyclerview.CardView;
-import com.moro.mtweaks.views.recyclerview.DescriptionView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.FilePickerActivity;
+import com.jdcteam.mtweaks.activities.NavigationActivity;
+import com.jdcteam.mtweaks.activities.tools.profile.ProfileActivity;
+import com.jdcteam.mtweaks.activities.tools.profile.ProfileEditActivity;
+import com.jdcteam.mtweaks.activities.tools.profile.ProfileTaskerActivity;
+import com.jdcteam.mtweaks.database.tools.profiles.ExportProfile;
+import com.jdcteam.mtweaks.database.tools.profiles.ImportProfile;
+import com.jdcteam.mtweaks.database.tools.profiles.Profiles;
+import com.jdcteam.mtweaks.fragments.BaseFragment;
+import com.jdcteam.mtweaks.fragments.DescriptionFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.fragments.SwitcherFragment;
+import com.jdcteam.mtweaks.services.boot.ApplyOnBoot;
+import com.jdcteam.mtweaks.services.profile.Tile;
+import com.jdcteam.mtweaks.services.profile.Widget;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.utils.kernel.cpu.CPUFreq;
+import com.jdcteam.mtweaks.utils.root.Control;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.views.dialog.Dialog;
+import com.jdcteam.mtweaks.views.recyclerview.CardView;
+import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

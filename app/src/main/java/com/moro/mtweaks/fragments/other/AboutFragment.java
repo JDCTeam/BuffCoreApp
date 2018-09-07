@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.other;
+package com.jdcteam.mtweaks.fragments.other;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -26,14 +26,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.moro.mtweaks.BuildConfig;
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.fragments.BaseFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.views.recyclerview.CardView;
-import com.moro.mtweaks.views.recyclerview.DescriptionView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.BuildConfig;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.fragments.BaseFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.views.recyclerview.CardView;
+import com.jdcteam.mtweaks.views.recyclerview.DescriptionView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
 
 import java.util.LinkedHashMap;
 import java.util.List;

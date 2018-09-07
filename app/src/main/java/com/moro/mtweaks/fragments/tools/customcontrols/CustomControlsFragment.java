@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.tools.customcontrols;
+package com.jdcteam.mtweaks.fragments.tools.customcontrols;
 
 import android.Manifest;
 import android.content.Intent;
@@ -30,26 +30,26 @@ import android.support.v4.graphics.drawable.DrawableCompat;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.FilePickerActivity;
-import com.moro.mtweaks.activities.tools.CustomControlsActivity;
-import com.moro.mtweaks.database.tools.customcontrols.Controls;
-import com.moro.mtweaks.database.tools.customcontrols.ExportControl;
-import com.moro.mtweaks.database.tools.customcontrols.ImportControl;
-import com.moro.mtweaks.fragments.DescriptionFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.ViewUtils;
-import com.moro.mtweaks.utils.tools.customcontrols.CustomControlException;
-import com.moro.mtweaks.utils.tools.customcontrols.Items;
-import com.moro.mtweaks.utils.tools.customcontrols.Values;
-import com.moro.mtweaks.views.dialog.Dialog;
-import com.moro.mtweaks.views.recyclerview.CardView;
-import com.moro.mtweaks.views.recyclerview.GenericSelectView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.views.recyclerview.SeekBarView;
-import com.moro.mtweaks.views.recyclerview.SwitchView;
-import com.moro.mtweaks.views.recyclerview.customcontrols.ErrorView;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.FilePickerActivity;
+import com.jdcteam.mtweaks.activities.tools.CustomControlsActivity;
+import com.jdcteam.mtweaks.database.tools.customcontrols.Controls;
+import com.jdcteam.mtweaks.database.tools.customcontrols.ExportControl;
+import com.jdcteam.mtweaks.database.tools.customcontrols.ImportControl;
+import com.jdcteam.mtweaks.fragments.DescriptionFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.utils.tools.customcontrols.CustomControlException;
+import com.jdcteam.mtweaks.utils.tools.customcontrols.Items;
+import com.jdcteam.mtweaks.utils.tools.customcontrols.Values;
+import com.jdcteam.mtweaks.views.dialog.Dialog;
+import com.jdcteam.mtweaks.views.recyclerview.CardView;
+import com.jdcteam.mtweaks.views.recyclerview.GenericSelectView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
+import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
+import com.jdcteam.mtweaks.views.recyclerview.customcontrols.ErrorView;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

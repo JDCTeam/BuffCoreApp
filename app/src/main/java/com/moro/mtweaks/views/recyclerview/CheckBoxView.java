@@ -1,11 +1,11 @@
-package com.moro.mtweaks.views.recyclerview;
+package com.jdcteam.mtweaks.views.recyclerview;
 
 import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 
-import com.moro.mtweaks.R;
+import com.jdcteam.mtweaks.R;
 
 import java.util.ArrayList;
 import java.util.List;

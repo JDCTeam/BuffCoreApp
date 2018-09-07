@@ -17,11 +17,11 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils;
+package com.jdcteam.mtweaks.utils;
 
 import android.os.Build;
 
-import com.moro.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

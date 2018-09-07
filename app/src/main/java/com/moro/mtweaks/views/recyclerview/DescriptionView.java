@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views.recyclerview;
+package com.jdcteam.mtweaks.views.recyclerview;
 
 import android.content.res.ColorStateList;
 import android.graphics.drawable.Drawable;
@@ -26,7 +26,7 @@ import android.support.v7.widget.AppCompatTextView;
 import android.text.method.MovementMethod;
 import android.view.View;
 
-import com.moro.mtweaks.R;
+import com.jdcteam.mtweaks.R;
 
 /**
  * Created by willi on 17.04.16.

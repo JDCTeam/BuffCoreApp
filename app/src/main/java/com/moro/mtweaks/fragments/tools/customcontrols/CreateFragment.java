@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.tools.customcontrols;
+package com.jdcteam.mtweaks.fragments.tools.customcontrols;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -29,14 +29,14 @@ import android.text.Editable;
 import android.text.InputType;
 import android.text.TextWatcher;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.EditorActivity;
-import com.moro.mtweaks.activities.tools.CustomControlsActivity;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.tools.customcontrols.Items;
-import com.moro.mtweaks.views.recyclerview.EditTextView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.views.recyclerview.customcontrols.CodeView;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.EditorActivity;
+import com.jdcteam.mtweaks.activities.tools.CustomControlsActivity;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.tools.customcontrols.Items;
+import com.jdcteam.mtweaks.views.recyclerview.EditTextView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.views.recyclerview.customcontrols.CodeView;
 
 import java.util.ArrayList;
 import java.util.HashMap;

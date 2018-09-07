@@ -17,16 +17,16 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.other;
+package com.jdcteam.mtweaks.fragments.other;
 
 import android.support.design.widget.Snackbar;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.WebpageReader;
-import com.moro.mtweaks.utils.other.Contributors;
-import com.moro.mtweaks.views.recyclerview.ContributorView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.WebpageReader;
+import com.jdcteam.mtweaks.utils.other.Contributors;
+import com.jdcteam.mtweaks.views.recyclerview.ContributorView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
 
 import java.util.List;
 

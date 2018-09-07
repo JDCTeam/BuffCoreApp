@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments;
+package com.jdcteam.mtweaks.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -27,7 +27,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.moro.mtweaks.R;
+import com.jdcteam.mtweaks.R;
 
 /**
  * Created by willi on 08.03.18.

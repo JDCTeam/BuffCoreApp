@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.recyclerview;
+package com.jdcteam.mtweaks.fragments.recyclerview;
 
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;

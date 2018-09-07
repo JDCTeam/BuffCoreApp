@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.services.monitor;
+package com.jdcteam.mtweaks.services.monitor;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -35,17 +35,17 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.support.annotation.Nullable;
 
-import com.moro.mtweaks.BuildConfig;
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.MainActivity;
-import com.moro.mtweaks.activities.NavigationActivity;
-import com.moro.mtweaks.database.Settings;
-import com.moro.mtweaks.fragments.tools.DataSharingFragment;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.Device;
-import com.moro.mtweaks.utils.NotificationId;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.server.ServerCreateDevice;
+import com.jdcteam.mtweaks.BuildConfig;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.MainActivity;
+import com.jdcteam.mtweaks.activities.NavigationActivity;
+import com.jdcteam.mtweaks.database.Settings;
+import com.jdcteam.mtweaks.fragments.tools.DataSharingFragment;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.Device;
+import com.jdcteam.mtweaks.utils.NotificationId;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.server.ServerCreateDevice;
 
 import org.json.JSONArray;
 import org.json.JSONException;

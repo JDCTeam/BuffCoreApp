@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views.recyclerview;
+package com.jdcteam.mtweaks.views.recyclerview;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -25,8 +25,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.utils.AppSettings;
 
 import java.util.HashMap;
 import java.util.List;

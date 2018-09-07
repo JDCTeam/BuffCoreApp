@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views.recyclerview.downloads;
+package com.jdcteam.mtweaks.views.recyclerview.downloads;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -30,16 +30,16 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.utils.DownloadTask;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.ViewUtils;
-import com.moro.mtweaks.utils.root.RootFile;
-import com.moro.mtweaks.utils.root.RootUtils;
-import com.moro.mtweaks.utils.tools.Recovery;
-import com.moro.mtweaks.utils.tools.SupportedDownloads;
-import com.moro.mtweaks.views.dialog.Dialog;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.utils.DownloadTask;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.utils.root.RootFile;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.utils.tools.Recovery;
+import com.jdcteam.mtweaks.utils.tools.SupportedDownloads;
+import com.jdcteam.mtweaks.views.dialog.Dialog;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
 
 import java.io.File;
 import java.util.List;

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.activities.tools.profile;
+package com.jdcteam.mtweaks.activities.tools.profile;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -37,16 +37,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.BaseActivity;
-import com.moro.mtweaks.activities.NavigationActivity;
-import com.moro.mtweaks.database.Settings;
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.fragments.BaseFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.ViewUtils;
-import com.moro.mtweaks.utils.root.Control;
-import com.moro.mtweaks.views.dialog.Dialog;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.BaseActivity;
+import com.jdcteam.mtweaks.activities.NavigationActivity;
+import com.jdcteam.mtweaks.database.Settings;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.fragments.BaseFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.utils.root.Control;
+import com.jdcteam.mtweaks.views.dialog.Dialog;
 
 import java.util.ArrayList;
 import java.util.Collections;

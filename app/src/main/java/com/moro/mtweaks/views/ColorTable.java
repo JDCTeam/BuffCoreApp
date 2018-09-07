@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views;
+package com.jdcteam.mtweaks.views;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -26,7 +26,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.moro.mtweaks.R;
+import com.jdcteam.mtweaks.R;
 
 /**
  * Created by willi on 31.05.16.

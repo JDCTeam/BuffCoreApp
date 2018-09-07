@@ -1,4 +1,4 @@
-package com.moro.mtweaks.utils.kernel.spectrum;
+package com.jdcteam.mtweaks.utils.kernel.spectrum;
 
 import android.annotation.TargetApi;
 import android.graphics.drawable.Icon;
@@ -6,9 +6,9 @@ import android.os.Build;
 import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.Utils;
 
 /**
  * Created by Morogoku on 01/08/2017.

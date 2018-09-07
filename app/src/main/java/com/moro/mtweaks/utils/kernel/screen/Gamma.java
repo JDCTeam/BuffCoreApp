@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils.kernel.screen;
+package com.jdcteam.mtweaks.utils.kernel.screen;
 
 import android.content.Context;
 
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.root.Control;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.root.Control;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -17,20 +17,20 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.tools.downloads;
+package com.jdcteam.mtweaks.fragments.tools.downloads;
 
 import android.Manifest;
 import android.content.Intent;
 import android.support.design.widget.Snackbar;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.tools.DownloadsActivity;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.WebpageReader;
-import com.moro.mtweaks.utils.tools.SupportedDownloads;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.views.recyclerview.downloads.KernelItemView;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.tools.DownloadsActivity;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.WebpageReader;
+import com.jdcteam.mtweaks.utils.tools.SupportedDownloads;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.views.recyclerview.downloads.KernelItemView;
 
 import java.util.ArrayList;
 import java.util.List;

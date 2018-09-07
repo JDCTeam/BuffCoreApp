@@ -17,10 +17,10 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils;
+package com.jdcteam.mtweaks.utils;
 
 import com.crashlytics.android.Crashlytics;
-import com.moro.mtweaks.BuildConfig;
+import com.jdcteam.mtweaks.BuildConfig;
 
 /**
  * Created by willi on 22.03.18.

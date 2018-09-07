@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views.recyclerview.datasharing;
+package com.jdcteam.mtweaks.views.recyclerview.datasharing;
 
 import android.view.View;
 import android.widget.TextView;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
 
 /**
  * Created by willi on 22.09.17.

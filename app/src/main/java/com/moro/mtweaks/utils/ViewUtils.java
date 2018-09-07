@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils;
+package com.jdcteam.mtweaks.utils;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -36,8 +36,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.bumptech.glide.Glide;
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.views.dialog.Dialog;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.views.dialog.Dialog;
 
 /**
  * Created by willi on 16.04.16.

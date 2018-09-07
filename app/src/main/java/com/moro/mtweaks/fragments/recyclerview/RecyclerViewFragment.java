@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.recyclerview;
+package com.jdcteam.mtweaks.fragments.recyclerview;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -54,18 +54,18 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.BaseActivity;
-import com.moro.mtweaks.activities.NavigationActivity;
-import com.moro.mtweaks.fragments.BaseFragment;
-import com.moro.mtweaks.fragments.LoadingFragment;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.ViewUtils;
-import com.moro.mtweaks.views.dialog.ViewPagerDialog;
-import com.moro.mtweaks.views.recyclerview.AdView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewAdapter;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.BaseActivity;
+import com.jdcteam.mtweaks.activities.NavigationActivity;
+import com.jdcteam.mtweaks.fragments.BaseFragment;
+import com.jdcteam.mtweaks.fragments.LoadingFragment;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.views.dialog.ViewPagerDialog;
+import com.jdcteam.mtweaks.views.recyclerview.AdView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewAdapter;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
 import com.viewpagerindicator.CirclePageIndicator;
 
 import java.lang.ref.WeakReference;

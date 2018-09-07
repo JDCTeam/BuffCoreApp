@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.fragments.kernel;
+package com.jdcteam.mtweaks.fragments.kernel;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -26,23 +26,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.fragments.BaseFragment;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.kernel.screen.Calibration;
-import com.moro.mtweaks.utils.kernel.screen.Gamma;
-import com.moro.mtweaks.utils.kernel.screen.GammaProfiles;
-import com.moro.mtweaks.utils.kernel.screen.Misc;
-import com.moro.mtweaks.views.ColorTable;
-import com.moro.mtweaks.views.recyclerview.CardView;
-import com.moro.mtweaks.views.recyclerview.DropDownView;
-import com.moro.mtweaks.views.recyclerview.GenericSelectView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.views.recyclerview.SeekBarView;
-import com.moro.mtweaks.views.recyclerview.SwitchView;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.fragments.BaseFragment;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.kernel.screen.Calibration;
+import com.jdcteam.mtweaks.utils.kernel.screen.Gamma;
+import com.jdcteam.mtweaks.utils.kernel.screen.GammaProfiles;
+import com.jdcteam.mtweaks.utils.kernel.screen.Misc;
+import com.jdcteam.mtweaks.views.ColorTable;
+import com.jdcteam.mtweaks.views.recyclerview.CardView;
+import com.jdcteam.mtweaks.views.recyclerview.DropDownView;
+import com.jdcteam.mtweaks.views.recyclerview.GenericSelectView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.views.recyclerview.SeekBarView;
+import com.jdcteam.mtweaks.views.recyclerview.SwitchView;
 
 import java.util.ArrayList;
 import java.util.List;

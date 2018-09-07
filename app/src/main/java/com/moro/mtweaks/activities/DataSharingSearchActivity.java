@@ -17,22 +17,22 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.activities;
+package com.jdcteam.mtweaks.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.fragments.recyclerview.RecyclerViewFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.server.DeviceInfo;
-import com.moro.mtweaks.utils.server.ServerSearchDevice;
-import com.moro.mtweaks.views.dialog.Dialog;
-import com.moro.mtweaks.views.recyclerview.ButtonView;
-import com.moro.mtweaks.views.recyclerview.RecyclerViewItem;
-import com.moro.mtweaks.views.recyclerview.datasharing.DataSharingDeviceView;
-import com.moro.mtweaks.views.recyclerview.datasharing.DataSharingPageView;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.server.DeviceInfo;
+import com.jdcteam.mtweaks.utils.server.ServerSearchDevice;
+import com.jdcteam.mtweaks.views.dialog.Dialog;
+import com.jdcteam.mtweaks.views.recyclerview.ButtonView;
+import com.jdcteam.mtweaks.views.recyclerview.RecyclerViewItem;
+import com.jdcteam.mtweaks.views.recyclerview.datasharing.DataSharingDeviceView;
+import com.jdcteam.mtweaks.views.recyclerview.datasharing.DataSharingPageView;
 
 import java.util.List;
 

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views;
+package com.jdcteam.mtweaks.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -30,8 +30,8 @@ import android.support.v4.graphics.drawable.DrawableCompat;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.utils.ViewUtils;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.utils.ViewUtils;
 
 public class BorderCircleView extends FrameLayout {
 

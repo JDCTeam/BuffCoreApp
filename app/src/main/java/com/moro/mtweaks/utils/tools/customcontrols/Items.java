@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils.tools.customcontrols;
+package com.jdcteam.mtweaks.utils.tools.customcontrols;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.moro.mtweaks.R;
+import com.jdcteam.mtweaks.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,9 +1,9 @@
-package com.moro.mtweaks.utils.kernel.spectrum;
+package com.jdcteam.mtweaks.utils.kernel.spectrum;
 
 import android.os.AsyncTask;
 
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
 
 /**
  * Created by Morogoku on 28/07/2017.

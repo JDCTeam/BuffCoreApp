@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils.kernel.gpu;
+package com.jdcteam.mtweaks.utils.kernel.gpu;
 
 /**
  * Created by willi on 12.05.16.

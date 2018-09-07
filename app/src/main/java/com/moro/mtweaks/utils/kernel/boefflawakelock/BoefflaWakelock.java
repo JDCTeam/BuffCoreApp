@@ -1,11 +1,11 @@
-package com.moro.mtweaks.utils.kernel.boefflawakelock;
+package com.jdcteam.mtweaks.utils.kernel.boefflawakelock;
 
 import android.content.Context;
 
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.root.Control;
-import com.moro.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.root.Control;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;

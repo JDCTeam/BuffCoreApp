@@ -17,9 +17,9 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.database;
+package com.jdcteam.mtweaks.database;
 
-import com.moro.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.Utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

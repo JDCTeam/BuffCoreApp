@@ -17,14 +17,14 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils.kernel.cpu;
+package com.jdcteam.mtweaks.utils.kernel.cpu;
 
 import android.content.Context;
-import com.moro.mtweaks.utils.Log;
+import com.jdcteam.mtweaks.utils.Log;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.utils.Device;
-import com.moro.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.utils.Device;
+import com.jdcteam.mtweaks.utils.Utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.services.boot;
+package com.jdcteam.mtweaks.services.boot;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -33,17 +33,17 @@ import android.os.Messenger;
 import android.os.RemoteException;
 import android.support.annotation.Nullable;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.utils.AppSettings;
-import com.moro.mtweaks.utils.AppUpdaterTask;
-import com.moro.mtweaks.utils.Device;
-import com.moro.mtweaks.utils.NotificationId;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.kernel.cpuvoltage.VoltageCl0;
-import com.moro.mtweaks.utils.kernel.cpuvoltage.VoltageCl1;
-import com.moro.mtweaks.utils.kernel.gpu.GPUFreqExynos;
-import com.moro.mtweaks.utils.kernel.boefflawakelock.BoefflaWakelock;
-import com.moro.mtweaks.utils.root.RootUtils;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.utils.AppSettings;
+import com.jdcteam.mtweaks.utils.AppUpdaterTask;
+import com.jdcteam.mtweaks.utils.Device;
+import com.jdcteam.mtweaks.utils.NotificationId;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.kernel.cpuvoltage.VoltageCl0;
+import com.jdcteam.mtweaks.utils.kernel.cpuvoltage.VoltageCl1;
+import com.jdcteam.mtweaks.utils.kernel.gpu.GPUFreqExynos;
+import com.jdcteam.mtweaks.utils.kernel.boefflawakelock.BoefflaWakelock;
+import com.jdcteam.mtweaks.utils.root.RootUtils;
 
 /**
  * Created by willi on 03.05.16.

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.activities;
+package com.jdcteam.mtweaks.activities;
 
 import android.content.Intent;
 import android.os.Bundle;

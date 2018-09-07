@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.activities.tools;
+package com.jdcteam.mtweaks.activities.tools;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -27,13 +27,13 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.activities.BaseActivity;
-import com.moro.mtweaks.fragments.tools.downloads.AboutFragment;
-import com.moro.mtweaks.fragments.tools.downloads.DownloadKernelFragment;
-import com.moro.mtweaks.fragments.tools.downloads.FeaturesFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.tools.SupportedDownloads;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.activities.BaseActivity;
+import com.jdcteam.mtweaks.fragments.tools.downloads.AboutFragment;
+import com.jdcteam.mtweaks.fragments.tools.downloads.DownloadKernelFragment;
+import com.jdcteam.mtweaks.fragments.tools.downloads.FeaturesFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.tools.SupportedDownloads;
 
 import java.util.LinkedHashMap;
 import java.util.List;

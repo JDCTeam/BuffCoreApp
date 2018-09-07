@@ -17,14 +17,14 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.views.recyclerview;
+package com.jdcteam.mtweaks.views.recyclerview;
 
 import android.app.Activity;
 import android.content.Context;
 import android.view.View;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.views.dialog.Dialog;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.views.dialog.Dialog;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,11 +1,11 @@
-package com.moro.mtweaks.utils.kernel.gpu;
+package com.jdcteam.mtweaks.utils.kernel.gpu;
 
 import android.content.Context;
 
-import com.moro.mtweaks.R;
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.root.Control;
+import com.jdcteam.mtweaks.R;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.root.Control;
 
 public class AdrenoBoost {
 

@@ -1,10 +1,10 @@
-package com.moro.mtweaks.views.recyclerview;
+package com.jdcteam.mtweaks.views.recyclerview;
 
 import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 
 import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
-import com.moro.mtweaks.R;
+import com.jdcteam.mtweaks.R;
 
 /**
  * Created by MoroGoku on 27/09/2017.

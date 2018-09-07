@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.moro.mtweaks.utils.kernel.cpuhotplug;
+package com.jdcteam.mtweaks.utils.kernel.cpuhotplug;
 
 import android.content.Context;
 

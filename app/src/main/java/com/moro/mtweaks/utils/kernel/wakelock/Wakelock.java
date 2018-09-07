@@ -1,10 +1,10 @@
-package com.moro.mtweaks.utils.kernel.wakelock;
+package com.jdcteam.mtweaks.utils.kernel.wakelock;
 
 import android.content.Context;
 
-import com.moro.mtweaks.fragments.ApplyOnBootFragment;
-import com.moro.mtweaks.utils.Utils;
-import com.moro.mtweaks.utils.root.Control;
+import com.jdcteam.mtweaks.fragments.ApplyOnBootFragment;
+import com.jdcteam.mtweaks.utils.Utils;
+import com.jdcteam.mtweaks.utils.root.Control;
 
 /**
  * Created by Morogoku on 09/04/2017.
