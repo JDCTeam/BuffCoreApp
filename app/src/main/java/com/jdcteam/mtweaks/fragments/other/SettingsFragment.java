@@ -151,7 +151,6 @@ public class SettingsFragment extends PreferenceFragmentCompat implements
         findPreference(KEY_RESET_DATA).setOnPreferenceClickListener(this);
         findPreference(KEY_UPDATE_NOTIFICATION).setOnPreferenceChangeListener(this);
         findPreference(KEY_CHECK_UPDATE).setOnPreferenceClickListener(this);
-        findPreference(KEY_DARK_THEME).setOnPreferenceChangeListener(this);
         findPreference(KEY_BANNER_RESIZER).setOnPreferenceClickListener(this);
         findPreference(KEY_HIDE_BANNER).setOnPreferenceChangeListener(this);
         findPreference(KEY_PRIMARY_COLOR).setOnPreferenceClickListener(this);

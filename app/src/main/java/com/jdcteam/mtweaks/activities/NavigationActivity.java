@@ -68,7 +68,6 @@ import com.jdcteam.mtweaks.fragments.kernel.SpectrumFragment;
 import com.jdcteam.mtweaks.fragments.kernel.ThermalFragment;
 import com.jdcteam.mtweaks.fragments.kernel.VMFragment;
 import com.jdcteam.mtweaks.fragments.kernel.WakeFragment;
-import com.jdcteam.mtweaks.fragments.other.AboutFragment;
 import com.jdcteam.mtweaks.fragments.other.ContributorsFragment;
 import com.jdcteam.mtweaks.fragments.other.SettingsFragment;
 import com.jdcteam.mtweaks.fragments.recyclerview.RecyclerViewFragment;
@@ -277,7 +276,6 @@ public class NavigationActivity extends BaseActivity
         mFragments.add(new NavigationActivity.NavigationFragment(R.string.on_boot, OnBootFragment.class, R.drawable.ic_start));
         mFragments.add(new NavigationActivity.NavigationFragment(R.string.other));
         mFragments.add(new NavigationActivity.NavigationFragment(R.string.settings, SettingsFragment.class, R.drawable.ic_settings));
-        mFragments.add(new NavigationActivity.NavigationFragment(R.string.about, AboutFragment.class, R.drawable.ic_about));
         //mFragments.add(new NavigationActivity.NavigationFragment(R.string.contributors, ContributorsFragment.class, R.drawable.ic_people));
         //mFragments.add(new NavigationActivity.NavigationFragment(R.string.help, HelpFragment.class, R.drawable.ic_help));
     }
