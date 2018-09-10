@@ -34,8 +34,7 @@ import com.jdcteam.buffcore.fragments.kernel.BatteryFragment;
 import com.jdcteam.buffcore.fragments.kernel.BoefflaWakelockFragment;
 import com.jdcteam.buffcore.fragments.kernel.CPUFragment;
 import com.jdcteam.buffcore.fragments.kernel.CPUHotplugFragment;
-import com.jdcteam.buffcore.fragments.kernel.CPUVoltageCl0Fragment;
-import com.jdcteam.buffcore.fragments.kernel.CPUVoltageCl1Fragment;
+import com.jdcteam.buffcore.fragments.kernel.CPUVoltageFragment;
 import com.jdcteam.buffcore.fragments.kernel.EntropyFragment;
 import com.jdcteam.buffcore.fragments.kernel.GPUFragment;
 import com.jdcteam.buffcore.fragments.kernel.DvfsFragment;
@@ -65,8 +64,7 @@ public class ApplyOnBootFragment extends BaseFragment {
     private static final String INTENT_CATEGORY = PACKAGE + ".INTENT.CATEGORY";
 
     public static final String CPU = "cpu_onboot";
-    public static final String CPU_CL0_VOLTAGE = "cpucl0voltage_onboot";
-    public static final String CPU_CL1_VOLTAGE = "cpucl1voltage_onboot";
+    public static final String CPU_VOLTAGE = "cpuvoltage_onboot";
     public static final String CPU_HOTPLUG = "cpuhotplug_onboot";
     public static final String HMP = "hmp_onboot";
     public static final String THERMAL = "thermal_onboot";
@@ -90,8 +88,7 @@ public class ApplyOnBootFragment extends BaseFragment {
 
     static {
         sAssignments.put(CPUFragment.class, CPU);
-        sAssignments.put(CPUVoltageCl0Fragment.class, CPU_CL0_VOLTAGE);
-        sAssignments.put(CPUVoltageCl1Fragment.class, CPU_CL1_VOLTAGE);
+        sAssignments.put(CPUVoltageFragment.class, CPU_VOLTAGE);
         sAssignments.put(CPUHotplugFragment.class, CPU_HOTPLUG);
         sAssignments.put(HmpFragment.class, HMP);
         sAssignments.put(ThermalFragment.class, THERMAL);

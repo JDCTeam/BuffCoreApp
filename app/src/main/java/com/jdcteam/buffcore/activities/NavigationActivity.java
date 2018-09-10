@@ -48,10 +48,9 @@ import com.jdcteam.buffcore.R;
 import com.jdcteam.buffcore.fragments.BaseFragment;
 import com.jdcteam.buffcore.fragments.kernel.BatteryFragment;
 import com.jdcteam.buffcore.fragments.kernel.BoefflaWakelockFragment;
-import com.jdcteam.buffcore.fragments.kernel.CPUVoltageCl1Fragment;
+import com.jdcteam.buffcore.fragments.kernel.CPUVoltageFragment;
 import com.jdcteam.buffcore.fragments.kernel.CPUFragment;
 import com.jdcteam.buffcore.fragments.kernel.CPUHotplugFragment;
-import com.jdcteam.buffcore.fragments.kernel.CPUVoltageCl0Fragment;
 import com.jdcteam.buffcore.fragments.kernel.EntropyFragment;
 import com.jdcteam.buffcore.fragments.kernel.GPUFragment;
 import com.jdcteam.buffcore.fragments.kernel.DvfsFragment;
@@ -92,8 +91,7 @@ import com.jdcteam.buffcore.utils.ViewUtils;
 import com.jdcteam.buffcore.utils.WebpageReader;
 import com.jdcteam.buffcore.utils.kernel.battery.Battery;
 import com.jdcteam.buffcore.utils.kernel.cpuhotplug.Hotplug;
-import com.jdcteam.buffcore.utils.kernel.cpuvoltage.VoltageCl0;
-import com.jdcteam.buffcore.utils.kernel.cpuvoltage.VoltageCl1;
+import com.jdcteam.buffcore.utils.kernel.cpuvoltage.Voltage;
 import com.jdcteam.buffcore.utils.kernel.entropy.Entropy;
 import com.jdcteam.buffcore.utils.kernel.gpu.GPU;
 import com.jdcteam.buffcore.utils.kernel.hmp.Hmp;
@@ -195,12 +193,10 @@ public class NavigationActivity extends BaseActivity
         }
         mFragments.add(new NavigationActivity.NavigationFragment(R.string.kernel));
         mFragments.add(new NavigationActivity.NavigationFragment(R.string.cpu, CPUFragment.class, R.drawable.ic_cpu));
-        if (VoltageCl1.supported()) {
-            mFragments.add(new NavigationActivity.NavigationFragment(R.string.cpucl1_voltage, CPUVoltageCl1Fragment.class, R.drawable.ic_bolt));
+        if (Voltage.getInstance().supported()) {
+            mFragments.add(new NavigationActivity.NavigationFragment(R.string.cpu_voltage, CPUVoltageFragment.class, R.drawable.ic_bolt));
         }
-        if (VoltageCl0.supported()) {
-            mFragments.add(new NavigationActivity.NavigationFragment(R.string.cpucl0_voltage, CPUVoltageCl0Fragment.class, R.drawable.ic_bolt));
-        }
+     
         if (Hotplug.supported()) {
             mFragments.add(new NavigationActivity.NavigationFragment(R.string.cpu_hotplug, CPUHotplugFragment.class, R.drawable.ic_switch));
         }

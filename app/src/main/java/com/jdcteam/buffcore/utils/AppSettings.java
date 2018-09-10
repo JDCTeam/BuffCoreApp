@@ -56,8 +56,6 @@ public class AppSettings {
     private static final String APPLY_ON_BOOT_TOAST = "applyonboottoast";
     private static final String APPLY_ON_BOOT_SCRIPT = "applyonbootscript";
     private static final String PREVIEW_PICTURE = "previewpicture";
-    private static final String CPU_GLOBAL_OFFSET_CL0 = "globalOffset_Cl0";
-    private static final String CPU_GLOBAL_OFFSET_CL1 = "globalOffset_Cl1";
 
     public static boolean getBoolean(String key, boolean defaults, Context context) {
         return Prefs.getBoolean(key, defaults, context);
@@ -85,22 +83,6 @@ public class AppSettings {
 
     public static void remove (String name, Context context){
         Prefs.remove(name, context);
-    }
-
-    public static int getCpuGlobalOffsetCl0(Context context){
-        return Prefs.getInt(CPU_GLOBAL_OFFSET_CL0, 0, context);
-    }
-
-    public static void saveCpuGlobalOffsetCl0(int value, Context context){
-        Prefs.saveInt(CPU_GLOBAL_OFFSET_CL0, value, context);
-    }
-
-    public static int getCpuGlobalOffsetCl1(Context context){
-        return Prefs.getInt(CPU_GLOBAL_OFFSET_CL1, 0, context);
-    }
-
-    public static void saveCpuGlobalOffsetCl1(int value, Context context){
-        Prefs.saveInt(CPU_GLOBAL_OFFSET_CL1, value, context);
     }
 
     public static boolean isForceEnglish(Context context) {

@@ -39,8 +39,7 @@ import com.jdcteam.buffcore.utils.AppUpdaterTask;
 import com.jdcteam.buffcore.utils.Device;
 import com.jdcteam.buffcore.utils.NotificationId;
 import com.jdcteam.buffcore.utils.Utils;
-import com.jdcteam.buffcore.utils.kernel.cpuvoltage.VoltageCl0;
-import com.jdcteam.buffcore.utils.kernel.cpuvoltage.VoltageCl1;
+import com.jdcteam.buffcore.utils.kernel.cpuvoltage.Voltage;
 import com.jdcteam.buffcore.utils.kernel.gpu.GPUFreqExynos;
 import com.jdcteam.buffcore.utils.kernel.boefflawakelock.BoefflaWakelock;
 import com.jdcteam.buffcore.utils.root.RootUtils;
@@ -89,28 +88,6 @@ public class ApplyOnBootService extends Service {
             BoefflaWakelock.CopyWakelockBlockerDefault();
         }
 
-        // Check if kernel is changed
-        String kernel_old = AppSettings.getString("kernel_version_old", "", this);
-        String kernel_new = Device.getKernelVersion(true);
-        // If is changed save voltage files
-        if (!kernel_old.equals(kernel_new)) {
-            // Save backup of Cluster0 stock voltages
-            if (VoltageCl0.supported()) {
-                RootUtils.runCommand("cp " + VoltageCl0.CL0_VOLTAGE + " " + VoltageCl0.BACKUP);
-                AppSettings.saveBoolean("cl0_voltage_saved", true, this);
-            }
-            // Save backup of Cluster1 stock voltages
-            if (VoltageCl1.supported()) {
-                RootUtils.runCommand("cp " + VoltageCl1.CL1_VOLTAGE + " " + VoltageCl1.BACKUP);
-                AppSettings.saveBoolean("cl1_voltage_saved", true, this);
-            }
-            // Save backup of GPU stock voltages
-            if (GPUFreqExynos.getInstance().supported() && GPUFreqExynos.getInstance().hasVoltage()) {
-                RootUtils.runCommand("cp " + GPUFreqExynos.getInstance().AVAILABLE_VOLTS + " " + GPUFreqExynos.BACKUP);
-                AppSettings.saveBoolean("gpu_voltage_saved", true, this);
-            }
-            RootUtils.runCommand("setprop buffcore.voltage_saved 1");
-        }
 
         Messenger messenger = null;
         if (intent != null) {

@@ -53,8 +53,7 @@ import com.jdcteam.buffcore.utils.kernel.cpu.MSMPerformance;
 import com.jdcteam.buffcore.utils.kernel.cpu.Temperature;
 import com.jdcteam.buffcore.utils.kernel.cpuhotplug.Hotplug;
 import com.jdcteam.buffcore.utils.kernel.cpuhotplug.QcomBcl;
-import com.jdcteam.buffcore.utils.kernel.cpuvoltage.VoltageCl0;
-import com.jdcteam.buffcore.utils.kernel.cpuvoltage.VoltageCl1;
+import com.jdcteam.buffcore.utils.kernel.cpuvoltage.Voltage;
 import com.jdcteam.buffcore.utils.kernel.gpu.GPU;
 import com.jdcteam.buffcore.utils.kernel.gpu.GPUFreqExynos;
 import com.jdcteam.buffcore.utils.kernel.io.IO;
@@ -96,25 +95,7 @@ public class MainActivity extends BaseActivity {
         // If setting is applied on boot, mAppliedOnBoot = 1
         int mAppliedOnboot = Utils.strToInt(RootUtils.getProp("buffcore.applied_onboot"));
 
-        // If voltages are saved on Service.java, mVoltageSaved = 1
-        int mVoltageSaved = Utils.strToInt(RootUtils.getProp("buffcore.voltage_saved"));
-
-        // Check if system is rebooted
-        Boolean mIsBooted = AppSettings.getBoolean("is_booted", true, this);
-        if (mIsBooted) {
-            // reset the Global voltages seekbar
-            if (!AppSettings.getBoolean("cpucl1voltage_onboot", false, this)) {
-                AppSettings.saveInt("CpuCl1_seekbarPref_value", 16, this);
-            }
-            if (!AppSettings.getBoolean("cpucl0voltage_onboot", false, this)) {
-                AppSettings.saveInt("CpuCl0_seekbarPref_value", 16, this);
-            }
-            if (!AppSettings.getBoolean("gpu_onboot", false, this)) {
-                AppSettings.saveInt("gpu_seekbarPref_value", 16, this);
-            }
-        }
-        AppSettings.saveBoolean("is_booted", false, this);
-
+       
         // Check if exist /data/.buffcore folder
         if (!Utils.existFile("/data/.buffcore")) {
             RootUtils.runCommand("mkdir /data/.buffcore");
@@ -124,82 +105,7 @@ public class MainActivity extends BaseActivity {
         int prof = Utils.strToInt(Spectrum.getProfile());
         AppSettings.saveInt("spectrum_profile", prof, this);
 
-        // Check if kernel is changed
-        String kernel_old = AppSettings.getString("kernel_version_old", "", this);
-        String kernel_new = Device.getKernelVersion(true);
 
-        if (!kernel_old.equals(kernel_new)){
-            // Reset max limit of max_poll_percent
-            AppSettings.saveBoolean("max_pool_percent_saved", false, this);
-            AppSettings.saveBoolean("memory_pool_percent_saved", false, this);
-            AppSettings.saveString("kernel_version_old", kernel_new, this);
-
-            if (mVoltageSaved != 1) {
-                // Reset voltage_saved to recopy voltage stock files
-                AppSettings.saveBoolean("cl0_voltage_saved", false, this);
-                AppSettings.saveBoolean("cl1_voltage_saved", false, this);
-                AppSettings.saveBoolean("gpu_voltage_saved", false, this);
-            }
-
-            // Reset battery_saved to recopy battery stock values
-            AppSettings.saveBoolean("s7_battery_saved", false, this);
-        }
-
-        // Check if BuffCore version is changed
-        String appVersionOld = AppSettings.getString("app_version_old", "", this);
-        String appVersionNew = Utils.appVersion();
-        AppSettings.saveBoolean("show_changelog", true, this);
-
-        if (appVersionOld.equals(appVersionNew)){
-            AppSettings.saveBoolean("show_changelog", false, this);
-        } else {
-            AppSettings.saveString("app_version_old", appVersionNew, this);
-        }
-
-        // save battery stock values
-        if (!AppSettings.getBoolean("s7_battery_saved", false, this)){
-            Battery.getInstance(this).saveS7StockValues(this);
-        }
-
-        // Save backup of Cluster0 stock voltages
-        if (!Utils.existFile(VoltageCl0.BACKUP) || !AppSettings.getBoolean("cl0_voltage_saved", false, this) ){
-            if (VoltageCl0.supported()){
-                RootUtils.runCommand("cp " + VoltageCl0.CL0_VOLTAGE + " " + VoltageCl0.BACKUP);
-                AppSettings.saveBoolean("cl0_voltage_saved", true, this);
-            }
-        }
-
-        // Save backup of Cluster1 stock voltages
-        if (!Utils.existFile(VoltageCl1.BACKUP) || !AppSettings.getBoolean("cl1_voltage_saved", false, this)){
-            if (VoltageCl1.supported()){
-                RootUtils.runCommand("cp " + VoltageCl1.CL1_VOLTAGE + " " + VoltageCl1.BACKUP);
-                AppSettings.saveBoolean("cl1_voltage_saved", true, this);
-            }
-        }
-
-        // Save backup of GPU stock voltages
-        if (!Utils.existFile(GPUFreqExynos.BACKUP) || !AppSettings.getBoolean("gpu_voltage_saved", false, this)){
-            if (GPUFreqExynos.getInstance().supported() && GPUFreqExynos.getInstance().hasVoltage()){
-                RootUtils.runCommand("cp " + GPUFreqExynos.getInstance().AVAILABLE_VOLTS + " " + GPUFreqExynos.BACKUP);
-                AppSettings.saveBoolean("gpu_voltage_saved", true, this);
-            }
-        }
-
-        // If has MaxPoolPercent save file
-        if (!AppSettings.getBoolean("max_pool_percent_saved", false, this)) {
-            if (ZSwap.hasMaxPoolPercent()) {
-                RootUtils.runCommand("cp /sys/module/zswap/parameters/max_pool_percent /data/.buffcore/max_pool_percent");
-                AppSettings.saveBoolean("max_pool_percent_saved", true, this);
-            }
-        }
-
-        //Check memory pool percent unit
-        if (!AppSettings.getBoolean("memory_pool_percent_saved", false, this)){
-        int pool = ZSwap.getMaxPoolPercent();
-        if (pool >= 100) AppSettings.saveBoolean("memory_pool_percent", false, this);
-        if (pool < 100) AppSettings.saveBoolean("memory_pool_percent", true, this);
-            AppSettings.saveBoolean("memory_pool_percent_saved", true, this);
-        }
 
         setContentView(R.layout.activity_main);
 
@@ -347,8 +253,7 @@ public class MainActivity extends BaseActivity {
             Thermal.supported();
             Tile.publishProfileTile(new Profiles(activity).getAllProfiles(), activity);
             Vibration.getInstance();
-            VoltageCl0.supported();
-            VoltageCl1.supported();
+            Voltage.getInstance();
             Wake.supported();
 
             try {

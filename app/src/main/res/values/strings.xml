@@ -92,8 +92,6 @@
     <string name="inputs">Inputs</string>
     <string name="cpu">CPU</string>
     <string name="cpu_voltage">CPU Voltage</string>
-    <string name="cpucl1_voltage">CPU big Voltage</string>
-    <string name="cpucl0_voltage">CPU LITTLE Voltage</string>
     <string name="cpu_hotplug">CPU Hotplug</string>
     <string name="thermal">Thermal</string>
     <string name="gpu">GPU</string>
