@@ -14,32 +14,14 @@ import com.jdcteam.buffcore.R;
 public class AppUpdaterTask {
 
     public static void appCheckNotification(Context context){
-        if (Prefs.getBoolean("show_update_notif", true, context)) {
-            new AppUpdater(context)
-                    .setDisplay(Display.NOTIFICATION)
-                    .setUpdateFrom(UpdateFrom.JSON)
-                    .setIcon(R.drawable.logo)
-                    .setUpdateJSON(context.getString(R.string.appupdater_json))
-                    .start();
-        }
+        
     }
 
     public static void appCheckDialog(Context context){
-        if (Prefs.getBoolean("show_update_notif", true, context)) {
-            new AppUpdater(context)
-                    .setDisplay(Display.DIALOG)
-                    .setUpdateFrom(UpdateFrom.JSON)
-                    .setUpdateJSON(context.getString(R.string.appupdater_json))
-                    .start();
-        }
+        
     }
 
     public static void appCheckDialogAllways(Context context){
-            new AppUpdater(context)
-                    .setDisplay(Display.DIALOG)
-                    .setUpdateFrom(UpdateFrom.JSON)
-                    .setUpdateJSON(context.getString(R.string.appupdater_json))
-                    .showAppUpdated(true)
-                    .start();
+           
     }
 }

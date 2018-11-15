@@ -1,9 +1,0 @@
-{
-  "latestVersion": "2.9.2",
-  "latestVersionCode": "292",
-  "url": "https://github.com/morogoku/MTweaks-KernelAdiutorMOD/releases/download/v2.9.2/MTweaks_v2.9.2.apk",
-  "releaseNotes": [
-    "Changelog:",
-    "- Fixed Boeffla Wakelock, now works much faster, thanks @Grouxho"
-  ]
-}
