@@ -106,37 +106,11 @@ public class Temperature {
     }
 
     private double getCPUTemp() {
-        return (double) Utils.strToInt(Utils.readFile(CPU_NODE)) / CPU_OFFSET;
+        return (double) Utils.strToInt(Utils.readFile(THERMAL_ZONE0));
     }
 
     public boolean hasCPU() {
-        if (TEMP_JSON != null && TEMP_JSON.getCPU() != null) {
-            CPU_NODE = TEMP_JSON.getCPU();
-            if (Utils.existFile(CPU_NODE)) {
-                CPU_OFFSET = TEMP_JSON.getCPUOffset();
-                if (CPU_OFFSET != 1 && Utils.readFile(CPU_NODE).length() == 2) {
-                    CPU_OFFSET = 1;
-                }
-                return true;
-            }
-            CPU_NODE = null;
-        }
-        if (CPU_NODE != null) return true;
-        for (String node : sCPUTemps.keySet()) {
-            if (Utils.existFile(node)) {
-                CPU_NODE = node;
-                CPU_OFFSET = sCPUTemps.get(CPU_NODE);
-                return true;
-            }
-        }
-        if (CPU_NODE == null && Utils.existFile(THERMAL_ZONE0)) {
-            CPU_NODE = THERMAL_ZONE0;
-            CPU_OFFSET = 1000;
-        }
-        if (CPU_NODE != null && Utils.readFile(CPU_NODE).length() == 2) {
-            CPU_OFFSET = 1;
-        }
-        return CPU_NODE != null;
+        return true;
     }
 
     public boolean supported() {
