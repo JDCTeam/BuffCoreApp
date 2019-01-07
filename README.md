@@ -15,3 +15,10 @@ Also, you need to download android studio in order to use it's SDK manager. Inst
 If you are on updated Linux Distro you may need to switch to 1.8 java in order to build
 
     sudo update-alternatives --config java
+
+# Useful commands
+
+find 'apple' and replace it with 'orange' in all files and all directories/subdirectories
+
+
+        find ./ -type f -exec sed -i -e 's/apple/orange/g' {} \;
