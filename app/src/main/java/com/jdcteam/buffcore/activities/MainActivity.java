@@ -34,7 +34,6 @@ import android.widget.TextView;
 
 import com.crashlytics.android.answers.Answers;
 import com.crashlytics.android.answers.CustomEvent;
-import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.security.ProviderInstaller;
@@ -256,29 +255,13 @@ public class MainActivity extends BaseActivity {
             Voltage.getInstance();
             Wake.supported();
 
-            try {
-                ProviderInstaller.installIfNeeded(activity);
-            } catch (GooglePlayServicesNotAvailableException
-                    | GooglePlayServicesRepairableException e) {
-                e.printStackTrace();
-            }
 
             if (!BuildConfig.DEBUG) {
                 // Send SoC type to analytics to collect stats
                 Answers.getInstance().logCustom(new CustomEvent("SoC")
                         .putCustomAttribute("type", Device.getBoard()));
             }
-
-            Log.crashlyticsI("Build Display ID: "
-                    + Device.getBuildDisplayId());
-            Log.crashlyticsI("ROM: "
-                    + Device.ROMInfo.getInstance().getVersion());
-            Log.crashlyticsI("Kernel version: "
-                    + Device.getKernelVersion(true));
-            Log.crashlyticsI("Board: " +
-                    Device.getBoard());
-            Log.crashlyticsI("Google services available: "
-                    + Utils.isGooglePlayServicesAvailable(activity));
+      
         }
 
         /**
@@ -339,12 +322,9 @@ public class MainActivity extends BaseActivity {
                 }
                 return;
             }
-
-            // Initialize Google Ads
-            MobileAds.initialize(activity, "ca-app-pub-1851546461606210~9501142287");
-
             // Execute another AsyncTask for license checking
             new LoadingTask(activity).execute();
+
         }
 
     }
